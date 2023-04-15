@@ -1,42 +1,63 @@
 <!DOCTYPE>
 <html>
 <head>
+    <title>recommend</title>
    <style>
-
+        label{
+            font-size: 20px;
+        }
+        label:hover {
+            font-size: 200%;
+            color: pink;
+        }
+        fieldset {
+            width: 500px;
+            text-align: center;
+        }
+        button {
+            background-color: rgb(192, 6, 192);
+            color: white;
+            font-size: 20px;
+            border: 2px solid white;
+        }
     </style>
 </head>
 <body>
+    <h1>당신의 취향에 맞게 골라드립니다!</h1>
     <div id="gender">
         <h2>성별이 무엇입니까?</h2>
         <form>
-            <input type ="radio" name="gender" checked>남성
-            <input type ="radio" name="gender">여성 <br>
-            <!--글자 눌러도 되게.. 사실 글자만 눌러도 되게-->
+        <label for="male">남성</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="female">여성</label>
+        <input type="radio" name="gender" id="female" value="female"><br>
         </form>
     </div>
     <div id="with">
         <h2>함께하고 싶은 사람은 누구인가요?</h2>
         <form>
-            <input type ="radio" name="with" checked>연인 <br>
-            <input type ="radio" name="with">친구 <br>
-            <input type ="radio" name="with">나홀로 <br>
+            <label for="lover">연인</label>
+            <input type ="radio" name="with" id="lover" value="lover" checked> <br>
+            <label for="friend">친구</label>
+            <input type ="radio" name="with" id="friend" value="friend"><br>
+            <label for="alone">나홀로</label>
+            <input type ="radio" name="with" id="alone" value="alone"><br>
         </form>
     </div>
     <div id="kind">
         <h2>어떤 종류의 활동을 원하세요?</h2>
         <form>
-            <input type ="radio" name="kind" checked>정적인 놀거리 <br>
-            <input type ="radio" name="kind">활동적인 놀거리 <br>
+            <input type ="radio" name="kind" checked><image src="calm1.png"></image>정적인 놀거리 <br>
+            <input type ="radio" name="kind"><image src="tent.png"></image>활동적인 놀거리 <br>
             <br>
         <fieldset> <br>
         <legend>원하는 스타일의 활동을 모두 골라주세요. 참고할게요!</legend>
-            <input type ="checkbox" name="ex" checked>전시회
-            <input type ="checkbox" name="ex" checked>페스티벌
-            <input type ="checkbox" name="ex">공연 관람
-            <input type ="checkbox" name="ex">실내 스포츠
-            <input type ="checkbox" name="ex">공방 체험
-            <input type ="checkbox" name="ex">팝업 스토어
-            <input type ="checkbox" name="ex">미술관
+            <input type ="checkbox" name="ex" checked><image src="free-icon-exhibition-2400560.png"></image>전시회
+            <input type ="checkbox" name="ex" checked><image src="concert (1).png"></image>페스티벌
+            <input type ="checkbox" name="ex"><image src="free-icon-theater-708915.png"></image>공연 관람 <br>
+            <input type ="checkbox" name="ex"><image src="free-icon-climbing-2513189.png"></image>실내 스포츠
+            <input type ="checkbox" name="ex"><image src="porcelain.png"></image>공방 체험
+            <input type ="checkbox" name="ex"><image src="online-shopping.png"></image>팝업 스토어 <br>
         </fieldset>
         </form>
     </div>
