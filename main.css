@@ -1,0 +1,11 @@
+#map{
+    background-image: url("map.png");
+    height: 270px;
+    width: 270px;
+}
+.pop:hover{
+    color: red;
+    background-color: yellow;
+    width: 2em;
+    height: 2em;
+}
