@@ -1,7 +1,19 @@
 #map{
-    background-image: url("map.png");
+    position: absolute;
+    background-image: url("/image/map.png");
+    background-repeat: no-repeat;
+    border: solid 1px;
+    left: 50%;
+    margin-right: auto;
     height: 270px;
-    width: 270px;
+    width: 50%;
+    transform: translate(-50%, 0%);
+    z-index: -1;
+}
+.pop{ 
+    position: absolute;
+    left: 50%;
+    
 }
 .pop:hover{
     color: red;
