@@ -1,0 +1,2 @@
+<a href="/check.html" onclick="window.open(this.href,'_blank','width=600px,heigh=400px,toolbars==no,scrollbars=no'); return false">
+        </a>
