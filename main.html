@@ -1,20 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <title>Document</title>
-    <link href="main.css" rel="stylesheet">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/main_button.css">
+    <script src="/js/main.js"></script>
 </head>
 <body>
     <header>
+        <div>
+            <button class="to_home">
+                <a href="#">Play Ground</a>
+            </button>
+        </div>
     </header>
     <section>
         <div id="map"> <!--지도-->
-            <h2>map</h2>
-            <div class="popup"> <!--팝업창-->
-                <input class="pop" type="button" value="" onclick="showPopup();"/>
-                <input type="image" src="image/marker.png" width="20" height="20" onclick="showPopup();"/>
-                <input type="button" value="" onclick="showPopup();"/>
+            <div> <!--팝업창-->
+                <button type="button" class="popup_button">
+                    <div class="hidehover"><img src="image/marker.png" width="20" height="20"></div>
+                    <div class="showhover"><iframe src="list.html" frameborder="1" width="400px" height="300px" left="100" top="10"></iframe></div>
+                </button>
+                <input class="pop" type="image" src="image/marker.png" width="20" height="20" onclick="showPopup();"/>
             </div>
         </div>
     </section>
