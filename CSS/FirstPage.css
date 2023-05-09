@@ -1,0 +1,72 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: rgb(245, 241, 235);
+}
+
+.b1,.b2,.b3{
+    width:calc(1.4em/0.7);
+    height:calc(1.4em/0.7);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2em;
+    color:white;
+    background-color: rgba(207, 50, 50, 0.856);
+}
+#w1,#w2,#w3{
+    display:flex;
+    justify-content: left;
+    margin:0 auto;
+    padding:15px;
+    max-width:1170px;
+}
+.b2{
+    background-color: rgba(207, 194, 50, 0.856);
+}
+#w2{
+    justify-content:center;
+}
+.b3{
+    background-color: rgba(50, 134, 207, 0.856);
+}
+#w3{
+    justify-content:right;
+}
+
+.human{
+    display:flex;
+    justify-content: center;
+    margin:0px;
+    padding:0px;
+}
+#hn{
+    width:170px;
+    height:300px;
+}
+
+h1/*ground 글씨 스타일 지정 */{
+    text-align:center;
+    font-family:'Courier New', Courier, monospace;
+    font-size:50px;
+    margin-top:0%
+} 
+
+.gd/* ground 부분 바탕색 설정 */{
+    width: 100%;
+    height: 131px;
+    background-color: rgb(56, 5, 5);
+} 
+
+a/* 하이퍼링크의 스타일 제거 */{
+    color:inherit;
+    text-decoration-line: none;
+ } 
+
+#ground{
+    font-style: italic;
+    color: white;
+    background-color: rgb(56, 5, 5);
+}
