@@ -1,0 +1,13 @@
+body, html{
+    height:100%;
+    width:100%;
+    background-color:rgb(245, 241, 235);
+} /* 배경 스타일 */
+
+#sungsu,#hongdae,#hyehwa,#bukchon,#gangnam,#recommend{
+    display:inline-block;
+    margin-left:150px;
+    margin-top:70px;
+    width:250px;
+    height:250px;
+} /* 목차 스타일 */
