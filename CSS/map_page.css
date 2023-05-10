@@ -1,0 +1,22 @@
+.to_home{
+    background-color: #000080;
+    width: 200px;
+    height: 70px;
+}
+.to_home a{
+    color: #ff00ff;
+    font-size: 30px;
+    text-decoration: none;
+}
+#map{
+    position: absolute;
+    background-image: url("/image/map.png");
+    background-repeat: no-repeat;
+    border: solid 1px;
+    left: 50%;
+    margin-right: auto;
+    height: 270px;
+    width: 50%;
+    transform: translate(-50%, 0%);
+    z-index: -2;
+}
