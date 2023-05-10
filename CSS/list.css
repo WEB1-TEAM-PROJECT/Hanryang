@@ -1,0 +1,24 @@
+*{
+    background-color: antiquewhite;
+}
+html{
+    height: 70%;
+}
+/*list 정보*/
+span{
+    margin: 0;
+    padding: 0px 0px 0px 10px
+}
+span.tit{
+    padding: 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+dt{
+    list-style: none;
+}
+/*이미지*/
+.portal{
+    float: right;
+    transform: translate(0, -80px);
+}
