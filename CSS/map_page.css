@@ -10,7 +10,7 @@
 }
 #map{
     position: absolute;
-    background-image: url("/IMG/sample2.png");
+    background-image: url("../IMG/sample2.png");
     background-repeat: no-repeat;
     border: solid 1px;
     left: 50%;
