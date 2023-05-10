@@ -11,14 +11,14 @@ html, body{
 .background {
     width: 1024px;
     height: 600px;
-    background-image:url("../images/background.png");
+    background-image:url("../IMG/background.png");
     padding: 20px 0px 0px 20px;
 }
 
 .outerbox {
     width: 808px;
     height: 544px;
-    background-image:url("../images/outerbox.png");
+    background-image:url("../IMG/outerbox.png");
 }
 
 .wrapper {
