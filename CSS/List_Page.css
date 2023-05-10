@@ -8,10 +8,15 @@ html, body{
     height: 100%;
 }
 
+img {
+    max-width:100%;
+    height: auto;
+}
+
 .background {
     width: 1024px;
     height: 600px;
-    background-image:url("../IMG/background.png");
+    background-color: rgb (245,241,235) ;
     padding: 20px 0px 0px 20px;
 }
 
