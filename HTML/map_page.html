@@ -16,12 +16,19 @@
     <section>
         <div id="map"> <!--지도-->
             <div> <!--팝업창-->
-                <button type="button" class="popup_button">
-                    <div class="hidehover"><img src="../IMG/marker.png" width="20" height="20"></div>
-                    <div class="showhover"><iframe src="list.html" frameborder="1" width="400px" height="300px" left="100" top="10"></iframe></div>
+                <button type="button" class="popup_button" id="btn1">
+                    <div class="hideContent"><img src="../IMG/marker.png"></div>
+                    <div class="showContent"><iframe src="list.html" frameborder="1" width="400px" height="300px" left="100" top="10"></iframe></div>
+                </button>
+            </div>
+            <div> <!--팝업창-->
+                <button type="button" class="popup_button" id="btn2">
+                    <div class="hideContent"><img src="../IMG/marker.png"></div>
+                    <div class="showContent"><iframe src="list.html" frameborder="1" width="400px" height="300px" left="100" top="10"></iframe></div>
                 </button>
             </div>
         </div>
     </section>
+    <script src="../JavaScript/map_page.js"></script>
 </body>
 </html>
