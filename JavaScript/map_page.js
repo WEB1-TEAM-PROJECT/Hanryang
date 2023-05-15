@@ -1,6 +1,6 @@
 // 마커 선언
 let els = Array.from(document.querySelectorAll('.container'));
-let showCons = Array.from(document.querySelectorAll('.dog'));
+let showCons = Array.from(document.querySelectorAll('.showContent'));
 
 //마우스 올릴시 띄우기
 for(let i=0; i<els.length; i++){
