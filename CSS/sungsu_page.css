@@ -42,23 +42,43 @@ body{
 }
 /*첫번째 마커 위치 지정*/
 #btn1{
-    top: 50%;
-    left: 25%;
+    top: 1%;
+    left: 1%;
 }
 /*두번째 마커*/
 #btn2{
-    top: 50%;
-    left: 50%;
+    top: 1%;
+    left: 40%;
 }
 /*3번째 마커*/
 #btn3{
-    top: 30%;
-    left: 90%;
+    top: 1%;
+    left: 80%;
 }
 /*4번째 마커*/
 #btn4{
-    top: 20%;
-    left: 10%;
+    top: 40%;
+    left: 1%;
+}
+#btn5{
+    top: 40%;
+    left: 40%;
+}
+#btn6{
+    top: 40%;
+    left: 80%;
+}
+#btn7{
+    top: 80%;
+    left: 1%;
+}
+#btn8{
+    top: 80%;
+    left: 40%;
+}
+#btn9{
+    top: 80%;
+    left: 80%;
 }
 /*마커 컨테이너 설정*/
 .hideContent{
