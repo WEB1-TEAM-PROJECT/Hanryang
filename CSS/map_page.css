@@ -1,3 +1,4 @@
+/*홈페이지*/
 .to_home{
     background-color: #000080;
     width: 200px;
@@ -8,6 +9,7 @@
     font-size: 30px;
     text-decoration: none;
 }
+/*지도*/
 #map{
     position: absolute;
     background-image: url("../IMG/sample2.png");
@@ -75,4 +77,11 @@
 }
 .dog{
     display: none;
+}
+/**/
+iframe{
+    width: 400px;
+    height: 300px;
+    left: 100;
+    top: 10;
 }
