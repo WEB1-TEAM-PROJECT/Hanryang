@@ -1,6 +1,6 @@
 //성수페이지로 이동
 document.querySelector('#sungsu').addEventListener('click',e=>{
-    window.location.href = '../HTML/map_page.html';
+    window.location.href = '../HTML/sungsu_page.html';
 });
 
 //홍대페이지로 이동

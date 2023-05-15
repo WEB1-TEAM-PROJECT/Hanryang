@@ -11,11 +11,13 @@ for(let popbtn of popbtns){
     popbtn.addEventListener('mouseout', mouseOut)
 }
 
-const el = document.querySelector('.container');
+let els = Array.from(document.querySelectorAll('.container'));
 const hiddenDiv = document.querySelector('.dog');
-el.addEventListener('mouseover', function handleMouseOver() {
-    hiddenDiv.style.display = 'block';
- });
-el.addEventListener('mouseout', function handleMouseOut() {
-    hiddenDiv.style.display = 'none';
-});
+for(let el of els){
+    el.addEventListener('mouseover', function handleMouseOver() {
+        hiddenDiv.style.display = 'block';
+     });
+    el.addEventListener('mouseout', function handleMouseOut() {
+        hiddenDiv.style.display = 'none';
+    });
+}
