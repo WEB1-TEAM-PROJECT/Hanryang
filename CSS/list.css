@@ -2,7 +2,9 @@
     background-color: antiquewhite;
 }
 html{
-    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
 }
 /*list 정보*/
 span{
@@ -20,5 +22,9 @@ dt{
 /*이미지*/
 .portal{
     float: right;
-    transform: translate(0, -80px);
+    transform: translate(-10px, -30px); /*iframe 안 위치지정*/
+}
+.portal img{
+    width: 140px;
+    height: 140px;
 }
