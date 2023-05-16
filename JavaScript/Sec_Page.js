@@ -5,7 +5,7 @@ document.querySelector('#sungsu').addEventListener('click',e=>{
 
 //홍대페이지로 이동
 document.querySelector('#hongdae').addEventListener('click',e=>{
-    window.location.href = '../HTML/map_page.html';
+    window.location.href = '../HTML/hongdae_page.html';
 });
 
 //혜화페이지로 이동
