@@ -23,87 +23,38 @@ body{
 /*지도*/
 #map{
     position: absolute;
-    background-image: url("../IMG/sample2.png");
-    background-repeat: no-repeat;
     border: solid 1px;
     left: 50%;
     margin-right: auto;
     height: 270px;
     width: 50%;
     transform: translate(-50%, 0%);
-    z-index: -2;
+    /*z-index: -2;*/
 }
-/*마커설정*/
-.container{
-    position: absolute;
-    border: none;
-    background: none;
-    width: 30px;
-    height: 30px;
+div.wrap {
+    width: 150px;
 }
-/*마커 사이즈*/
-.hideContent img{
-    width: 20px;
-    height: 30px;
+div.text-box {
+    text-align: center;
 }
-/*첫번째 마커 위치 지정*/
-#btn1{
-    top: 1%;
-    left: 1%;
+h4 {
+    margin: 10px auto 0;
 }
-/*두번째 마커*/
-#btn2{
-    top: 1%;
-    left: 40%;
+div.img-box {
+    max-height: 90px;
+    overflow: hidden;
 }
-/*3번째 마커*/
-#btn3{
-    top: 1%;
-    left: 80%;
+img.marker {
+    width: 120px;
+    margin: -10px auto 0;
 }
-/*4번째 마커*/
-#btn4{
-    top: 40%;
-    left: 1%;
+a {
+    text-decoration: none;
+    color: #000;
 }
-#btn5{
-    top: 40%;
-    left: 40%;
-}
-#btn6{
-    top: 40%;
-    left: 80%;
-}
-#btn7{
-    top: 80%;
-    left: 1%;
-}
-#btn8{
-    top: 80%;
-    left: 40%;
-}
-#btn9{
-    top: 80%;
-    left: 80%;
-}
-/*마커 컨테이너 설정*/
-.hideContent{
-    margin: 0;
-    padding: 0;
-}
-/*리스트 컨테이너 설정*/
-.showContent{
+/* 확대/축소 등 구글 지도의 기본 UI 감추기 */
+.gmnoprint, .gm-control-active.gm-fullscreen-control {
     display: none;
-    position: fixed;
-    left: 10%;
-    top: -5%;
-    z-index: 1;
-}
-.showContent iframe{
-    width: 400px;
-    height: 300px;
-    left: 100;
-    top: 10;
 }
 
 /*이건 part*/
