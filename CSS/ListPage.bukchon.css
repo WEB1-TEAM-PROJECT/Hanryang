@@ -3,15 +3,21 @@ body{
 }
 /*홈페이지*/
 .to_home{
-    background-color: #000080;
-    width: 200px;
+    width: 400px;
     height: 70px;
+    background-color: #3065AC;
+    border: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 .to_home a{
-    color: #ff00ff;
-    background-color: #000080;
-    font-size: 30px;
+    color: #fff;
+    font-size: 50px;
     text-decoration: none;
+}
+
+.to_home a:hover{
+    text-decoration: underline;
 }
 /*박정호 part*/
 /*지도*/
