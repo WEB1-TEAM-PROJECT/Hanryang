@@ -35,3 +35,6 @@ a {
 button, input[type=button] {
     margin: 20px 0px;
 }
+#half{
+    background: linear-gradient(rgb(122, 201, 67) 50%, #fff 50%)
+}
