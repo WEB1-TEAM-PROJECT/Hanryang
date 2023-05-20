@@ -47,6 +47,10 @@ body{
     height: 300px;
 }
 
+#button{
+    all:unset;
+}
+
 h1/*ground 글씨 스타일 지정 */{
     text-align:center;
     font-family:'Courier New', Courier, monospace;
