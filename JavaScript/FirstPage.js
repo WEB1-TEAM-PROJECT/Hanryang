@@ -1,3 +1,3 @@
-function func() {
-    document.getElementById("human").src = "../IMG/FirstPage/girl";
+function changeImage() {
+    document.getElementById("hn").src = "../IMG/FirstPage/girl.png";
 }
