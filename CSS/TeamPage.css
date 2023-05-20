@@ -16,12 +16,18 @@ body {
     width: 85%;
     height: 80%;
     border-radius: 20px;
-    border: 1px rgb(122, 201, 67) solid;
+    border: 1px rgb(26, 36, 117) solid;
     margin-top: 100px;
     margin-bottom: 100px;
     display: inline-block;
     background-color: #fff;
     z-index: 1;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-weight: bold;
 }
 
 img {
