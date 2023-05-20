@@ -33,3 +33,6 @@ img {
     width:300px;
     height:auto;
 }
+.behind, .behind1, .behind2, .behind3{
+    display: none;
+}
