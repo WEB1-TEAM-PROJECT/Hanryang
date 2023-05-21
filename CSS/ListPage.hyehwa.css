@@ -20,17 +20,15 @@ body{
 .to_home a:hover{
     text-decoration: underline;
 }
-/*박정호 part*/
 /*지도*/
 #map{
     position: absolute;
-    border: solid 1px;
+    border: solid 10px;
+    border-color: skyblue;
     left: 47%;
-    margin-right: auto;
-    height: 270px;
+    height: 300px;
     width: 50%;
     transform: translate(-50%, 0%);
-    /*z-index: -2;*/
 }
 div.wrap {
     width: 150px;
