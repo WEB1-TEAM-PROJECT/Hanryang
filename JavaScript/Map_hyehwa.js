@@ -26,13 +26,20 @@ function initMap() {
         //혜화그림제작소 http://grimfactory.kr/bbs/board.php?bo_table=store 37.58256860015284, 126.99853768173308
         ['<div class="wrap"><div class="text-box"><h4>혜화 그림 제작소</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="http://grimfactory.kr/bbs/board.php?bo_table=store"><p>홈페이지 방문하기</p></a></div>', 37.58256860015284, 126.99853768173308],
         
+        //낙산공원 37.58067910552169, 127.0075389282773
+        ['<div class="wrap"><div class="text-box"><h4>낙산공원</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="http://grimfactory.kr/bbs/board.php?bo_table=store"><p>홈페이지 방문하기</p></a></div>', 37.58067910552169, 127.0075389282773],
         
-        //딸기케이크 마커
-        //['<div class="wrap"><div class="text-box"><h4>딸기케이크</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://noa-xyz.tistory.com"><p>홈페이지 방문하기</p></a></div>', 37.559524, 126.976710],
+        //상상의문 방탈출 37.584101682742634, 127.00087386333585
+        ['<div class="wrap"><div class="text-box"><h4>상상의문</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="http://grimfactory.kr/bbs/board.php?bo_table=store"><p>홈페이지 방문하기</p></a></div>', 37.584101682742634, 127.00087386333585],
         
+        //퍼퓸그라피 향수 쇼륨 37.582517648902375, 127.00291110791656
+        ['<div class="wrap"><div class="text-box"><h4>퍼퓸그라피</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="http://grimfactory.kr/bbs/board.php?bo_table=store"><p>홈페이지 방문하기</p></a></div>', 37.582517648902375, 127.00291110791656],
         
-        //창덕궁 마커
-        ['<a target="_blank" href="https://cdg.go.kr/">창덕궁 홈페이지</a>', 37.579711, 126.991043]
+        //마로니에공원 37.58051858622418, 127.0028579529348
+        ['<div class="wrap"><div class="text-box"><h4>마로니에공원</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="http://grimfactory.kr/bbs/board.php?bo_table=store"><p>홈페이지 방문하기</p></a></div>', 37.58051858622418, 127.0028579529348],
+        
+        //창경궁 37.57883191342931, 126.99499960598965
+        ['<a target="_blank" href="https://cdg.go.kr/">창경궁</a>', 37.57883191342931, 126.99499960598965]
         
         
         ]
