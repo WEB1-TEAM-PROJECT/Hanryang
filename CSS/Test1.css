@@ -8,19 +8,6 @@ html, body{
     height: 100%;
 }
 
-.background {
-    width: 1024px;
-    height: 600px;
-    background-color: rgb (245,241,235) ;
-    padding: 20px 0px 0px 20px;
-}
-
-.outerbox {
-    width: 808px;
-    height: 544px;
-    background-image:url("../IMG/outerbox.png");
-}
-
 .wrapper {
     width:100%;
     height: 100%;
@@ -54,10 +41,19 @@ html, body{
 .picWrapper__item{
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
 
 }
 
+#firstMono{
+    height: 200px;
+    z-index: -1;
+   position: absolute;
+}
+
 .place_pic {
+    margin-left: 30px;
+    margin-top: 50px;
     width: 120px;
     height: 120px;
 }
@@ -72,18 +68,14 @@ html, body{
     
 }
 
-.place_des {
-    color: gray;
-    font-size: 10px;
-    font-weight: bold;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 #firstPic,#secondPic,#thirdPic,#fourthPic,#fifthPic,#sixPic,#seventhPic,#eightPic,#ninePic {
     transition: all 0.1s linear;
   }
 #firstPic:hover,#secondPic:hover,#thridPic:hover,#fourthPic:hover,#fifthPic:hover,#sixthPic:hover,#seventhPic:hover,#eightPic:hover,#ninePic:hover{
     transform: scale(1.1);
+}
+
+
+#firstPic{
+    z-index: -1;
 }
