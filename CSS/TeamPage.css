@@ -1,6 +1,38 @@
-h2{
-    
+body {
+    width:100%;
+    height:100%;
+    margin:0px;
 }
-h4{
-    
+#half{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(26, 36, 117) 50%, #fff 20%);
+    z-index: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#main{
+    width: 85%;
+    height: 70%;
+    border-radius: 20px;
+    border: 1px rgb(26, 36, 117) solid;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: inline-block;
+    background-color: #fff;
+    z-index: 1;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+
+img {
+    width:300px;
+    height:auto;
+}
+.behind, .behind1, .behind2, .behind3{
+    display: none;
 }
