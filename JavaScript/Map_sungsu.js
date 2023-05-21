@@ -17,18 +17,34 @@ function initMap() {
     
     var locations = [
         
-        //경복궁 마커
-        ['<div class="wrap"><div class="text-box"><h4>경복궁</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.royalpalace.go.kr/"><p>홈페이지 방문하기</p></a></div>', 37.577624, 126.976020],
+        //마커 서울숲공원 37.54442007599984, 127.03751094674247
+        ['<div class="wrap"><div class="text-box"><h4>서울숲공원</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.royalpalace.go.kr/"><p>홈페이지 방문하기</p></a></div>', 37.54442007599984, 127.03751094674247],
         
+        //마커 리얼월드 성수 액티비티 37.54224527168637, 127.05850820951746
+        ['<div class="wrap"><div class="text-box"><h4>리얼월드</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.royalpalace.go.kr/"><p>홈페이지 방문하기</p></a></div>', 37.54224527168637, 127.05850820951746],
         
-        //딸기케이크 마커
-        ['<div class="wrap"><div class="text-box"><h4>딸기케이크</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://noa-xyz.tistory.com"><p>홈페이지 방문하기</p></a></div>', 37.559524, 126.976710],
+        //마커 나탈리 카르푸셴코 사진전 그라운드시소 전시 37.54640227270778, 127.06530035644184
+        ['<div class="wrap"><div class="text-box"><h4>나탈리 카르푸셴코 사진전</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.royalpalace.go.kr/"><p>홈페이지 방문하기</p></a></div>', 37.54640227270778, 127.06530035644184],
         
+        //마커 피에스비 커피바 카페 37.54815882567253, 127.04351851184418
+        ['<div class="wrap"><div class="text-box"><h4>PSB 커피바</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.royalpalace.go.kr/"><p>홈페이지 방문하기</p></a></div>', 37.54815882567253, 127.04351851184418],
         
-        //창덕궁 마커
-        ['<a target="_blank" href="https://cdg.go.kr/">창덕궁 홈페이지</a>', 37.579711, 126.991043]
+        //마커 그린랩 힐링 스튜디오 37.54677334445193, 127.04056640524125
+        ['<div class="wrap"><div class="text-box"><h4>그린랩</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.royalpalace.go.kr/"><p>홈페이지 방문하기</p></a></div>', 37.54677334445193, 127.04056640524125],
         
+        //마커 공간와디즈 복합문화공간 37.54487571502439, 127.05058334444135
+        ['<div class="wrap"><div class="text-box"><h4>공간와디즈</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.royalpalace.go.kr/"><p>홈페이지 방문하기</p></a></div>', 37.54487571502439, 127.05058334444135],
         
+        //마커 카페 할아버지공장 37.54109306291794, 127.05494062062823
+        ['<div class="wrap"><div class="text-box"><h4>카페 할아버지공장</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.royalpalace.go.kr/"><p>홈페이지 방문하기</p></a></div>', 37.54109306291794, 127.05494062062823],
+        
+        //마커 마크곤잘레스 팝업스토어 37.540969123181654, 127.0594989003599
+        ['<div class="wrap"><div class="text-box"><h4>마크곤잘레스 팝업스토어</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.royalpalace.go.kr/"><p>홈페이지 방문하기</p></a></div>', 37.540969123181654, 127.0594989003599],
+        
+        //마커 성수미술관 카페 37.54565835336702, 127.05482509416157
+        ['<div class="wrap"><div class="text-box"><h4>성수미술관 카페</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.royalpalace.go.kr/"><p>홈페이지 방문하기</p></a></div>', 37.54565835336702, 127.05482509416157],
+
+
         ]
 
     

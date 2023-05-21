@@ -4,9 +4,9 @@ function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
         
         //처음 중심 좌표
-        center: {
-            lat: 37.587624,
-            lng: 126.976020
+        center: {  
+            lat: 37.51661824908312,
+            lng: 127.02808350077841
         },
         
         //처음 줌 값. 숫자가 작을수록 낮은 배율
@@ -17,24 +17,33 @@ function initMap() {
     
     var locations = [
         
-        //경복궁 마커
-        ['<div class="wrap"><div class="text-box"><h4>일상 비일상의 틈</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.lguplus.com/benefit/dailyteum"><p>홈페이지 방문하기</p></a></div>', 37.50067375908326, 127.02672123754625],
+        //마커 일상 비일상의 틈 37.500572861524766, 127.02690236263258
+        ['<div class="wrap"><div class="text-box"><h4>일상 비일상의 틈</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.lguplus.com/benefit/dailyteum"><p>홈페이지 방문하기</p></a></div>', 37.500572861524766, 127.02690236263258],
         
+        //마커 파이널나인 37.50086780543443, 127.0247461240554
+        ['<div class="wrap"><div class="text-box"><h4>파이널나인</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.lguplus.com/benefit/dailyteum"><p>홈페이지 방문하기</p></a></div>', 37.50086780543443, 127.0247461240554],
         
-        //딸기케이크 마커
-        //['<div class="wrap"><div class="text-box"><h4>딸기케이크</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://noa-xyz.tistory.com"><p>홈페이지 방문하기</p></a></div>', 37.559524, 126.976710],
+        //마커 템플스트라이크 37.49896232653475, 127.0260846658743
+        ['<div class="wrap"><div class="text-box"><h4>템플스트라이크</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.lguplus.com/benefit/dailyteum"><p>홈페이지 방문하기</p></a></div>', 37.49896232653475, 127.0260846658743],
+
+        //마커 캠프VR 37.49946170835692, 127.02814538997339
+        ['<div class="wrap"><div class="text-box"><h4>캠프VR</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.lguplus.com/benefit/dailyteum"><p>홈페이지 방문하기</p></a></div>', 37.49946170835692, 127.02814538997339],
         
+        //마커 반지대학 37.5003715559861, 127.02745677246305
+        ['<div class="wrap"><div class="text-box"><h4>반지대학</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.lguplus.com/benefit/dailyteum"><p>홈페이지 방문하기</p></a></div>', 37.5003715559861, 127.02745677246305],
         
-        //창덕궁 마커
-        //['<a target="_blank" href="https://cdg.go.kr/">창덕궁 홈페이지</a>', 37.579711, 126.991043]
+        //마커 시그널헌터 37.51796365701954, 127.02262502445839
+        ['<div class="wrap"><div class="text-box"><h4>시그널헌터</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.lguplus.com/benefit/dailyteum"><p>홈페이지 방문하기</p></a></div>', 37.51796365701954, 127.02262502445839],
         
+        //마커 별마당도서관
+        ['<div class="wrap"><div class="text-box"><h4>별마당도서관</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.lguplus.com/benefit/dailyteum"><p>홈페이지 방문하기</p></a></div>', 37.51003102096571, 127.06003160955466],
         
         ]
 
     
     
     //마커 이미지
-    var customicon = '../IMG/ListPage/Marker/Gangnam.png'
+    var customicon = '../IMG/ListPage/Marker/Hongdae_2.png'
 
     //인포윈도우
     var infowindow = new google.maps.InfoWindow();
@@ -63,7 +72,7 @@ function initMap() {
                 //마커 클릭 시의 중심 위치 변화
                 map.setCenter(this.getPosition());
                 //마커 클릭 시의 줌 변화
-                map.setZoom(14);
+                map.setZoom(16);
                 
             });
         }
