@@ -1,23 +1,17 @@
 body{
-    background-color: #3065AC;
+    background-color: #DB4455;
 }
 /*홈페이지*/
 .to_home{
-    width: 400px;
+    background-color: #000080;
+    width: 200px;
     height: 70px;
-    background-color: #3065AC;
-    border: none;
-    font-family:'Courier New', Courier, monospace;
-    font-weight: bold;
 }
 .to_home a{
-    color: #fff;
-    font-size: 50px;
+    color: #ff00ff;
+    background-color: #000080;
+    font-size: 30px;
     text-decoration: none;
-}
-
-.to_home a:hover{
-    text-decoration: underline;
 }
 /*박정호 part*/
 /*지도*/
@@ -52,10 +46,10 @@ a {
     text-decoration: none;
     color: #000;
 }
-/* 확대/축소 등 구글 지도의 기본 UI 감추기 */
+/* 확대/축소 등 구글 지도의 기본 UI 감추기 
 .gmnoprint, .gm-control-active.gm-fullscreen-control {
     display: none;
-}
+}*/
 
 /*이건 part*/
 .background {
