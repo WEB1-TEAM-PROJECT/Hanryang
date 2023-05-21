@@ -33,6 +33,7 @@ img {
     width:300px;
     height:auto;
 }
-.behind, .behind1, .behind2, .behind3{
+/*뒤 이미지들 감추기*/
+.behind{
     display: none;
 }
