@@ -17,14 +17,14 @@ body{
 
 #logo {
     margin-left:30px;
-    padding:5px;
+    padding:10px;
     font-size:x-large;
     font-weight: bold;
 }
 
 #list,#team {
     margin-right:50px;
-    padding:9px;
+    padding:10px;
     font-size:large;
     float:right;
 }

@@ -3,6 +3,47 @@ body{
     height:100%;
     margin:0px;
 }
+/* nav style */
+.nav{
+    background-color:rgb(122, 201, 67);
+}
+
+#logo,#list,#team {
+    display:inline-block;
+    position: relative;
+}
+
+#logo {
+    margin-left:30px;
+    padding:10px;
+    font-size:x-large;
+    font-weight: bold;
+}
+
+#list,#team {
+    margin-right:50px;
+    padding:10px;
+    font-size:large;
+    float:right;
+}
+
+#logo::after,#list::after, #team::after{
+    position:absolute; 
+    bottom: 0; 
+    left: 0; 
+    display: block; 
+    content: ''; 
+    width: 100%; 
+    border-bottom: 3px solid #ccc; 
+    height: 1px; transform: translateY(-15px); 
+    opacity: 0; 
+    transition: all 0.5s;
+}
+#logo:hover::after, #list:hover::after, #team:hover::after{
+    opacity: 1; 
+    transform: translateY(-5px);
+}
+
 fieldset {
     text-align: center;
     padding: 40px;
