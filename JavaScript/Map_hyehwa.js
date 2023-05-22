@@ -20,6 +20,9 @@ function initMap() {
         //카페테라피 http://cafetherapy.net 37.5803866,127.0026872
         ['<div class="wrap"><div class="text-box"><a href="#firstPic"><h4>카페테라피</h4><div class="img-box"><img class="marker" src="../IMG/List_Thumbnail/Hyehwa_thumbnail/Hyehwa_cafetherapy.jpeg"></div><p>자세한 정보</p></a></div>', 37.58053751843618, 127.0053050105693],
         
+        //마커3 대학로 공연 37.58248026554055, 127.00306179764758
+        ['<div class="wrap"><div class="text-box"><a href="#thirdPic"><h4>대학로 공연</h4><div class="img-box"><img class="marker" src="../IMG/List_Thumbnail/Hyehwa_thumbnail/Hyehwa_dehakro.jpeg"></div><p>자세한 정보</p></a></div>', 37.58245457394441, 127.00247539293545],
+        
         //아이띵소 쇼룸 https://www.ithinksoshop.co.kr 37.5788284,127.0020601
         ['<div class="wrap"><div class="text-box"><a href="#fifthPic"><h4>아이띵쏘</h4><div class="img-box"><img class="marker" src="../IMG/List_Thumbnail/Hyehwa_thumbnail/Hyehwa_ithinkso.png"></div><p>자세한 정보</p></a></div>', 37.57883616542004, 127.00466915630915],
         

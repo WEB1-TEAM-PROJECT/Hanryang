@@ -32,8 +32,8 @@ function initMap() {
         //마커5 반지대학 37.5003715559861, 127.02745677246305
         ['<div class="wrap"><div class="text-box"><a href="#fifthPic"><h4>반지대학</h4><div class="img-box"><img class="marker" src="../IMG/List_Thumbnail/Gangnam_thumbnail/Gangnam_banji.jpeg"></div><p>자세한 정보</p></a></div>', 37.5003715559861, 127.02745677246305],
         
-        //마커6 
-        //['<div class="wrap"><div class="text-box"><a href="#sixthPic"><h4>반지대학</h4><div class="img-box"><img class="marker" src="../IMG/List_Thumbnail/Gangnam_thumbnail/Gangnam_banji.jpeg"></div><p>자세한 정보</p></a></div>', 37.5003715559861, 127.02745677246305],
+        //마커6 레드뮤지엄  37.527213647934666, 127.04471063470781
+        ['<div class="wrap"><div class="text-box"><a href="#sixthPic"><h4>샤넬 레드뮤지엄</h4><div class="img-box"><img class="marker" src="../IMG/List_Thumbnail/Gangnam_thumbnail/Gangnam_ chanel.jpeg"></div><p>자세한 정보</p></a></div>', 37.527213647934666, 127.04471063470781],
         
         //마커7 시그널헌터 37.51796365701954, 127.02262502445839
         ['<div class="wrap"><div class="text-box"><a href="#seventhPic"><h4>시그널헌터</h4><div class="img-box"><img class="marker" src="../IMG/List_Thumbnail/Gangnam_thumbnail/Gangnam_signalhunter.jpeg"></div><p>자세한 정보</p></a></div>', 37.51796365701954, 127.02262502445839],
