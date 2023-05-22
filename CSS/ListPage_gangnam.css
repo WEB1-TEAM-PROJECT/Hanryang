@@ -30,7 +30,7 @@ body{
 #map{
     position: absolute;
     border: solid 10px;
-    border-color: skyblue;
+    border-color: #F7F7AD;
     left: 47%;
     height: 300px;
     width: 50%;
