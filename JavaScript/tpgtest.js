@@ -1,4 +1,4 @@
-//img change
+// imgs = [pjh, ken, yjh, pdh]
 let frontimg = Array.from(document.querySelectorAll('.front'));
 let behindimg = Array.from(document.querySelectorAll('.behind'));
 
