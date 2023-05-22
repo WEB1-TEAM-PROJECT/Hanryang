@@ -1,7 +1,13 @@
 function changeImage() {
-    document.getElementById("hn").src = "../IMG/FirstPage/girl.png";
-}
+    let image= document.getElementById("hn");
 
-function changeImage1() {
-    document.getElementById("hn").src = "../IMG/FirstPage/boy.png";
+    if (image.src.match("../IMG/FirstPage/boy.png")) {
+        image.src="../IMG/FirstPage/girl.png";
+    }
+
+    else {
+        image.src="../IMG/FirstPage/boy.png";
+    }
+    
+    document.getElementById("hn").src = x;
 }
