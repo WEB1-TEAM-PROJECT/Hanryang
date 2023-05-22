@@ -18,32 +18,32 @@ function initMap() {
     var locations = [
         
         //마커 딩굴딩굴 알타미라 만화카페 37.554900597474564, 126.92857338047952
-        ['<div class="wrap"><div class="text-box"><h4>딩굴딩굴 알타마라 만화카페</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.lguplus.com/benefit/dailyteum"><p>홈페이지 방문하기</p></a></div>', 37.554900597474564, 126.92857338047952],
+        ['<div class="wrap"><div class="text-box"><a href="#firstPic"><h4>딩굴딩굴 알타마라 만화카페</h4><div class="img-box"><img class="marker" src=""></div><p>자세한 정보</p></a></div>', 37.554900597474564, 126.92857338047952],
         
         //마커 인디스페이스 독립영화 37.55722358911605, 126.92499195039491
-        ['<div class="wrap"><div class="text-box"><h4>인디스페이스</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.lguplus.com/benefit/dailyteum"><p>홈페이지 방문하기</p></a></div>', 37.55722358911605, 126.92499195039491],
+        ['<div class="wrap"><div class="text-box"><a href="#firstPic"><h4>인디스페이스</h4><div class="img-box"><img class="marker" src=""></div><p>자세한 정보</p></a></div>', 37.55722358911605, 126.92499195039491],
         
         //마커 포트링 도자기공방 37.559231397924655, 126.923482799549
-        ['<div class="wrap"><div class="text-box"><h4>포트링</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.lguplus.com/benefit/dailyteum"><p>홈페이지 방문하기</p></a></div>', 37.559231397924655, 126.923482799549],
+        ['<div class="wrap"><div class="text-box"><a href="#firstPic"><h4>포트링</h4><div class="img-box"><img class="marker" src=""></div><p>자세한 정보</p></a></div>', 37.559231397924655, 126.923482799549],
 
         //마커 121르말뒤페이 향수공방 37.548882672077575, 126.92137876447991
-        ['<div class="wrap"><div class="text-box"><h4>121르말뒤페이</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.lguplus.com/benefit/dailyteum"><p>홈페이지 방문하기</p></a></div>', 37.548882672077575, 126.92137876447991],
+        ['<div class="wrap"><div class="text-box"><a href="#firstPic"><h4>121르말뒤페이</h4><div class="img-box"><img class="marker" src=""></div><p>자세한 정보</p></a></div>', 37.548882672077575, 126.92137876447991],
         
         //마커 무신사테라스 37.55759477345083, 126.92692005895894
-        ['<div class="wrap"><div class="text-box"><h4>무신사테라스</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.lguplus.com/benefit/dailyteum"><p>홈페이지 방문하기</p></a></div>', 37.55759477345083, 126.92692005895894],
+        ['<div class="wrap"><div class="text-box"><a href="#firstPic"><h4>무신사테라스</h4><div class="img-box"><img class="marker" src=""></div><p>자세한 정보</p></a></div>', 37.55759477345083, 126.92692005895894],
         
         //마커 지구에 커튼을 쳐줄게 전시 37.55092628718842, 126.9211190505957
-        ['<div class="wrap"><div class="text-box"><h4>지구에 커튼을 쳐줄게</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.lguplus.com/benefit/dailyteum"><p>홈페이지 방문하기</p></a></div>', 37.55092628718842, 126.9211190505957],
+        ['<div class="wrap"><div class="text-box"><a href="#firstPic"><h4>지구에 커튼을 쳐줄게</h4><div class="img-box"><img class="marker" src=""></div><p>자세한 정보</p></a></div>', 37.55092628718842, 126.9211190505957],
         
         //마커 왓츠유어컬러 홍대 전시 37.557915066447414, 126.92632461196884
-        ['<div class="wrap"><div class="text-box"><h4>왓츠유어컬러</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://www.lguplus.com/benefit/dailyteum"><p>홈페이지 방문하기</p></a></div>', 37.557915066447414, 126.92632461196884],
+        ['<div class="wrap"><div class="text-box"><a href="#firstPic"><h4>왓츠유어컬러</h4><div class="img-box"><img class="marker" src=""></div><p>자세한 정보</p></a></div>', 37.557915066447414, 126.92632461196884],
         
         
         //마커 VRZONE 아케이드 37.55471468108817, 126.92232137474276
-        ['<div class="wrap"><div class="text-box"><h4>VRZONE아케이드</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://noa-xyz.tistory.com"><p>홈페이지 방문하기</p></a></div>', 37.55471468108817, 126.92232137474276],
+        ['<div class="wrap"><div class="text-box"><a href="#firstPic"><h4>VRZONE아케이드</h4><div class="img-box"><img class="marker" src=""></div>p><자세한 정보', 37.55471468108817, 126.92232137474276],
         
         //마커 티팩토리 복합문화공간 37.55523804673446, 126.92237767837207
-        ['<div class="wrap"><div class="text-box"><h4>T-Factory</h4><div class="img-box"><img class="marker" src="../IMG/concert (1).png"></div><a target="_blank" href="https://noa-xyz.tistory.com"><p>홈페이지 방문하기</p></a></div>', 37.55523804673446, 126.92237767837207],
+        ['<div class="wrap"><div class="text-box"><a href="#firstPic"><h4>T-Factory</h4><div class="img-box"><img class="marker" src=""></div>p><자세한 정보', 37.55523804673446, 126.92237767837207],
             
         ]
 
