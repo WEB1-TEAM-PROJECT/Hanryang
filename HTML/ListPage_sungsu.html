@@ -5,106 +5,120 @@
     <link rel="stylesheet" href="../CSS/ListPage_sungsu.css">
 </head>
 <body>
-    <header>
+    <header>…
         <div>
             <button class="to_home">
                 <a href="../HTML/FirstPage.html">Play Ground</a>
             </button>
         </div>  
     </header>
-    <section><!--박정호 part-->
+    <section id->
         <div id="map"></div><!--지도-->
     </section>
     <section><!--이건 part-->
-        <div class="background">
-            <div class="outerbox">
-                <div class="wrapper">
-                    <div class="wrapper_row">
-                        <div class="picWrapper">
-                            <div class="picWrapper__item">
-                                <a href="http://www.google.com">
-                                    <img id="firstPic" class="place_pic" src="../IMG/sample2.png" width="" height="">
-                                </a>
-                                <div class="place_name">예시1</div>
-                                <div class="place_des">설명1</div>
-                            </div>
-                            <div class="picWrapper__item">
-                                <a href="http://www.google.com">
-                                    <img id="secondPic" class="place_pic" src="../IMG/sample2.png"  width="" height="">
-                                </a>
-                                <div class="place_name">예시2</div>
-                                <div class="place_des">설명2 </div>
-                            </div>
-                            <div class="picWrapper__item">
-                                <a href="http://www.google.com">
-                                    <img id="thridPic" class="place_pic" src="../IMG/sample2.png" width="" height="">
-                                </a>
-                                <div class="place_name">예시3</div>
-                                <div class="place_des">설명3</div>
-                            </div>
-                        </div>
+        <div id="emptyBox"></div>
+        <div class="wrapper_row">
+            <div class="picWrapper">
+                <div id="firstWrapper" class="picWrapper__item">
+                    <div class="box">
+                        <a href="http://www.google.com">
+                            <img id="firstPic" class="place_pic" src="../IMG/List_Thumbnail/Sungsu_thumbnail/Sungsu_realworld.png" width="" height="">  
+                        </a>  
+                    </div>                    
+                    <div id="firstName" class="place_name">리얼월드</div>
+                    <div class="place_des">액티비티</div>
+                </div>
+                <div id="secondWrapper" class="picWrapper__item">
+                    <div class="box">
+                        <a href="http://www.google.com">
+                            <img id="secondPic" class="place_pic" src="../IMG/List_Thumbnail/Sungsu_thumbnail/Sungsu_natali.png"  width="" height="">
+                        </a>
                     </div>
-                    
-                    <!-- row 2 -->
-                    <div class="wrapper_row">          
-                        <div class="picWrapper">
-                            <div class="albumWrapper__item">
-                                <a href="http://www.google.com">
-                                    <img id="fourthPic" class="place_pic" src="../IMG/sample2.png" width="" height="">
-                                </a>
-                                <div class="place_name">예시4</div>
-                                <div class="place_des">설명4</div>
-                            </div>
-                            <div class="albumWrapper__item">
-                                <a href="http://www.google.com">
-                                    <img id="fifthPic" class="place_pic" src="../IMG/sample2.png" width="" height="">
-                                </a>
-                                <div class="place_name">예시5</div>
-                                <div class="place_des">설명5 </div>
-                            </div>
-                            <div class="albumWrapper__item">
-                                <a href="http://www.google.com">
-                                    <img id="sixthPic" class="place_pic" src="../IMG/sample2.png" width="" height="">
-                                </a>
-                                <div class="place_name">예시6</div>
-                                <div class="place_des">설명6</div>
-                            </div>
-                        </div>
+                    <div id="secondName" class="place_name">나탈리 사진전</div>
+                    <div class="place_des">전시회</div>
+                </div>
+                <div id="thirdWrapper" class="picWrapper__item">
+                    <div class= "box">
+                        <a href="http://www.google.com">
+                            <img id="thirdPic" class="place_pic" src="../IMG/List_Thumbnail/Sungsu_thumbnail/Sungsu_coffee.jpeg" width="" height="">
+                        </a>
                     </div>
-    
-                    <!-- row 3-->
-                    <div class="wrapper_row">
-                        <div class="picWrapper">
-                            <div class="albumWrapper__item">
-                                <a href="http://www.google.com">
-                                    <img id="seventhPic" class="place_pic" src="../IMG/sample2.png" width="" height="">
-                                </a>
-                                <div class="place_name">예시7</div>
-                                <div class="place_des">설명7</div>
-                            </div>
-                            <div class="albumWrapper__item">
-                                <a href="http://www.google.com">
-                                    <img id="eightPic" class="place_pic" src="../IMG/sample2.png" width="" height="">
-                                </a>
-                                <div class="place_name">예시8</div>
-                                <div class="place_des">설명8</div>
-                            </div>
-                            <div class="albumWrapper__item">
-                                <a href="http://www.google.com">
-                                    <img id="ninePic" class="place_pic" src="../IMG/sample2.png" width="" height="">
-                                </a>
-                                <div class="place_name">예시9</div>
-                                <div class="place_des">설명9</div>
-                            </div>
-                        </div>
+                    <div id="thirdName" class="place_name">피에스비 커피바</div>
+                    <div class="place_des">카페</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- row 2 -->
+        <div class="wrapper_row">          
+            <div class="picWrapper">
+                <div id="fourthWrapper" class="picWrapper__item">
+                    <div class="box">
+                        <a href="http://www.google.com">
+                            <img id="fourthPic" class="place_pic" src="../IMG/List_Thumbnail/Sungsu_thumbnail/Sungsu_greenrap.png" width="" height="">
+                        </a>
                     </div>
+                    <div class="place_name">그린랩</div>
+                    <div class="place_des">힐링 스튜디오</div>
+                </div>
+                <div id="fifthWrapper" class="picWrapper__item">
+                    <div class="box">
+                        <a href="http://www.google.com">
+                            <img id="fifthPic" class="place_pic" src="../IMG/List_Thumbnail/Sungsu_thumbnail/Sungsu_konggang.jpeg" width="" height="">
+                        </a>
+                    </div>
+                    <div class="place_name">공간와디즈</div>
+                    <div class="place_des">엔터테이먼트</div>
+                </div>
+                <div id="sixthWrapper" class="picWrapper__item">
+                    <div class="box">
+                        <a href="http://www.google.com">
+                            <img id="sixthPic" class="place_pic" src="../IMG/List_Thumbnail/Sungsu_thumbnail/Sungsu_halaboji.jpeg" width="" height="">
+                        </a>
+                    </div>
+                    <div class="place_name">할아버지공장</div>
+                    <div class="place_des">복합문화공간</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- row 3-->
+        <div class="wrapper_row">
+            <div class="picWrapper">
+                <div id="seventhWrapper" class="picWrapper__item">
+                    <div class="box">
+                        <a href="http://www.google.com">
+                            <img id="seventhPic" class="place_pic" src="../IMG/List_Thumbnail/Sungsu_thumbnail/Sungsu_mark.png" width="" height="">
+                        </a>
+                    </div>
+                
+                    <div class="place_name">마크곤잘레스</div>
+                    <div class="place_des">팝업스토어</div>
+                </div>
+                <div id="eightWrapper" class="picWrapper__item">
+                    <div class="box">
+                        <a href="http://www.google.com">
+                            <img id="eightPic" class="place_pic" src="../IMG/List_Thumbnail/Sungsu_thumbnail/Sungsu_seoulpark.jpeg" width="" height="">
+                        </a>
+                    </div>
+                    <div class="place_name">서울숲 공원</div>
+                    <div class="place_des">공원</div>
+                </div>
+                <div id="nineWrapper" class="picWrapper__item">
+                    <div class="box">
+                        <a href="http://www.google.com">
+                            <img id="ninePic" class="place_pic" src="../IMG/List_Thumbnail/Sungsu_thumbnail/Sungsu_art.png" width="" height="">
+                        </a>
+                    </div>
+                    <div class="place_name">성수미술관</div>:
+                    <div class="place_des">미술카페</div>
                 </div>
             </div>
         </div>
     </section>
     <script src="../JavaScript/Map_sungsu.js"></script>
     <script defer 
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQA67_BSb6Dp44B9fa7hcz6VPppWp_q5Q&callback=initMap">
-</script>
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQA67_BSb6Dp44B9fa7hcz6VPppWp_q5Q&callback=initMap">
+    </script>
 </body>
 </html>
