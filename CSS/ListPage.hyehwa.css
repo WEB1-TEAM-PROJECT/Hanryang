@@ -108,7 +108,7 @@ html, body{
 }
 
 .place_name {
-    color: #0f465e;
+    color: #3066acba;
     padding: 10px;
     padding-top:20px;
     font-size: 38px;
@@ -120,7 +120,7 @@ html, body{
 }
 
 #firstName, #secondName, #thirdName {
-    color: #0f465e;
+    color: #3066acba;
 }
 
 .place_des {
