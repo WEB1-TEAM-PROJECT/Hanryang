@@ -38,9 +38,10 @@ a {
     margin: 20px 0px;
     padding: 3px;
     background-color: rgb(122, 201, 67, 0.5) ;
+    box-shadow: 0 0 0 max(2px, 0.2em) rgb(122, 201, 67, 0.5);
 }
 [type=button]:hover {
-    box-shadow: 0 0 0 max(2px, 0.2em) rgb(122, 201, 67, 0.5);
+    box-shadow: 0 0 0 max(2px, 0.2em) rgb(122, 201, 67);
     cursor: pointer;
 }
 
@@ -141,4 +142,10 @@ input[type="checkbox"] {
   input[type="checkbox"]:checked::after {
     display: block;
 }
-  
+.arrow{
+    width: 0;
+	height: 0;
+	border-top: 10px solid rgb(255, 222, 34);/* 화살표 */
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+}
