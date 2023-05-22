@@ -78,7 +78,7 @@ html, body{
 
 .wrapper_row {
     width:90%;
-    padding: 20px;
+    padding: 2.5px;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -102,7 +102,7 @@ html, body{
 }
 
 .place_pic {
-    width: 250px;
+    width: 270px;
     height: 230px;
     transform: scale(1.1);
 }
@@ -110,7 +110,7 @@ html, body{
 .place_name {
     color: #0f465e;
     padding: 10px;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: bold;
     display: flex;
     flex-direction: row;
@@ -139,43 +139,53 @@ html, body{
 }
 
 #firstWrapper{
+    margin-left:150px;
+    margin-right:5px;
     padding:25px;
     padding-right: 130px;
     padding-bottom: 80px;
-    border-right: 2px solid #3065AC;
-    border-bottom: 2px solid #3065AC;
+    border-right: 3px solid #3065AC;
+    border-bottom: 3px solid #3065AC;
 }
 
 #secondWrapper{
+    margin-right:5px;
     padding: 80px;
-    border-left: 2px solid #3065AC;
-    border-right: 2px solid #3065AC;
-    border-bottom: 2px solid #3065AC;
+    padding-left:120px;
+    padding-right:120px;
+    border-left: 3px solid #3065AC;
+    border-right: 3px solid #3065AC;
+    border-bottom: 3px solid #3065AC;
 }
 
 #thirdWrapper{
     padding:25px;
     padding-left: 130px;
     padding-bottom: 80px;
-    border-left: 2px solid #3065AC;
-    border-bottom: 2px solid #3065AC;
+    border-left: 3px solid #3065AC;
+    border-bottom: 3px solid #3065AC;
     
 }
 
 #fourthWrapper{
+    margin-left:150px;
+    margin-right:5px;
     padding:25px;
     padding-right: 130px;
     padding-top: 80px;
     padding-bottom: 80px;
-    border-top: 2px solid #3065AC;
-    border-right: 2px solid #3065AC;
-    border-bottom: 2px solid #3065AC;
+    border-top: 3px solid #3065AC;
+    border-right: 3px solid #3065AC;
+    border-bottom: 3px solid #3065AC;
     
 }
 
 #fifthWrapper{
+    margin-right:5px;
     padding: 80px;
-    border: 2px solid #3065AC;
+    padding-left:120px;
+    padding-right:120px;
+    border: 3px solid #3065AC;
     
 }
 
@@ -184,26 +194,31 @@ html, body{
     padding-top: 80px;
     padding-bottom: 80px;
     padding-left: 130px;
-    border-top: 2px solid #3065AC;
-    border-left: 2px solid #3065AC;
-    border-bottom: 2px solid #3065AC;
+    border-top: 3px solid #3065AC;
+    border-left: 3px solid #3065AC;
+    border-bottom: 3px solid #3065AC;
     
 }
 
 #seventhWrapper{
+    margin-left:150px;
+    margin-right:5px;
     padding:25px;
     padding-right: 130px;
     padding-top: 80px;
-    border-top: 2px solid #3065AC;
-    border-right: 2px solid #3065AC;
+    border-top: 3px solid #3065AC;
+    border-right: 3px solid #3065AC;
     
 }
 
 #eightWrapper{
+    margin-right:5px;
     padding: 80px;
-    border-left: 2px solid #3065AC;
-    border-top: 2px solid #3065AC;
-    border-right: 2px solid #3065AC;
+    padding-left:120px;
+    padding-right:120px;
+    border-left: 3px solid #3065AC;
+    border-top: 3px solid #3065AC;
+    border-right: 3px solid #3065AC;
 
 }
 
@@ -211,7 +226,7 @@ html, body{
     padding:25px;
     padding-left: 130px;
     padding-top: 80px;
-    border-left: 2px solid #3065AC;
-    border-top: 2px solid #3065AC;
+    border-left: 3px solid #3065AC;
+    border-top: 3px solid #3065AC;
     
 }
