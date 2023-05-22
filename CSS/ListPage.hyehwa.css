@@ -1,5 +1,11 @@
 body{
-    background: linear-gradient(#3065AC 15%, #fff 85%);
+    background: linear-gradient(
+    to bottom,
+    #3065AC 0%,
+    #3065AC 20%,
+    #fff 20%,
+    #fff 100%
+  );
 }
 /*홈페이지*/
 
@@ -135,30 +141,32 @@ html, body{
 #firstWrapper{
     padding:25px;
     padding-right: 130px;
-    border-right: 2px solid white;
-    border-bottom: 2px solid white;
+    padding-bottom: 80px;
+    border-right: 2px solid #3065AC;
+    border-bottom: 2px solid #3065AC;
 }
 
 #secondWrapper{
-    padding:25px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-left: 2px solid white;
-    border-right: 2px solid white;
-    border-bottom: 2px solid white;
+    padding: 80px;
+    border-left: 2px solid #3065AC;
+    border-right: 2px solid #3065AC;
+    border-bottom: 2px solid #3065AC;
 }
 
 #thirdWrapper{
     padding:25px;
     padding-left: 130px;
-    border-left: 2px solid white;
-    border-bottom: 2px solid white;
+    padding-bottom: 80px;
+    border-left: 2px solid #3065AC;
+    border-bottom: 2px solid #3065AC;
     
 }
 
 #fourthWrapper{
     padding:25px;
     padding-right: 130px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     border-top: 2px solid #3065AC;
     border-right: 2px solid #3065AC;
     border-bottom: 2px solid #3065AC;
@@ -166,15 +174,15 @@ html, body{
 }
 
 #fifthWrapper{
-    padding:25px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 80px;
     border: 2px solid #3065AC;
     
 }
 
 #sixthWrapper{
     padding:25px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     padding-left: 130px;
     border-top: 2px solid #3065AC;
     border-left: 2px solid #3065AC;
@@ -185,15 +193,14 @@ html, body{
 #seventhWrapper{
     padding:25px;
     padding-right: 130px;
+    padding-top: 80px;
     border-top: 2px solid #3065AC;
     border-right: 2px solid #3065AC;
     
 }
 
 #eightWrapper{
-    padding:25px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 80px;
     border-left: 2px solid #3065AC;
     border-top: 2px solid #3065AC;
     border-right: 2px solid #3065AC;
@@ -203,6 +210,7 @@ html, body{
 #nineWrapper{
     padding:25px;
     padding-left: 130px;
+    padding-top: 80px;
     border-left: 2px solid #3065AC;
     border-top: 2px solid #3065AC;
     
