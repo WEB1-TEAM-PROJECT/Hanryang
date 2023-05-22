@@ -5,6 +5,7 @@ body{
     background-color: white;
 }
 
+/* nav style */
 .nav{
     height:42px;
     background-color:#ab5e068b;
@@ -40,7 +41,8 @@ body{
     background-color: #7B5326;
 }
 
-.b1,.b2,.b3{
+/* ball style */
+.b2{
     width:calc(1.2em/0.7);
     height:calc(1.2em/0.7);
     border-radius: 50%;
@@ -49,8 +51,10 @@ body{
     align-items: center;
     font-size:2em;
     color:white;
-    background-color: rgba(207, 50, 50, 0.856);
+    background-color: rgba(207, 194, 50, 0.856);
 }
+
+/*ball wrapper style */
 #w1,#w2,#w3{
     display:flex;
     justify-content: left;
@@ -58,18 +62,74 @@ body{
     padding:15px;
     max-width:1170px;
 }
-.b2{
-    background-color: rgba(207, 194, 50, 0.856);
-}
 #w2{
     justify-content:center;
-}
-.b3{
-    background-color: rgba(50, 134, 207, 0.856);
 }
 #w3{
     justify-content:right;
 }
+
+/* p 버튼 */
+#b1 {
+    width: calc(1.2em / 0.7);
+    height: calc(1.2em / 0.7);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    background-color: rgba(207, 50, 50, 0.856);
+    position: relative;
+    top: 0;
+    animation-name: bounceAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+  }
+  
+  @keyframes bounceAnimation {
+    0% {
+      top: 0;
+    }
+    50% {
+      top: 700px;
+    }
+    100% {
+      top: 0;
+    }
+  }
+
+  /* A 버튼 */
+  #b3 {
+    width: calc(1.2em / 0.7);
+    height: calc(1.2em / 0.7);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    background-color: rgba(50, 134, 207, 0.856);
+    position: relative;
+    top: 0;
+    animation-name: bounceAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+  }
+  
+  @keyframes bounceAnimation {
+    0% {
+      top: 0;
+    }
+    50% {
+      top: 295px;
+    }
+    100% {
+      top: 0;
+    }
+  }
 
 .human{
     display:flex;

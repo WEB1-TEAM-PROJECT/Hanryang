@@ -9,9 +9,9 @@
 
 <body>
     <div class="nav">
-        <div id="logo"><a href="../HTML/FirstPage.html">PLAY GROUND</a></div>
-        <div id="team"><a href="../HTML/TeamPage.html">TEAM</a></div>
-        <div id="list"><a href="../HTML/SecondPage.html">LIST</a></div>
+        <div id="logo"><a href="../HTML/FirstPage.html">PLAY GROUND</a></div> <!--First Page 이동-->
+        <div id="team"><a href="../HTML/TeamPage.html">TEAM</a></div>  <!--하이퍼링크 / Team Page 이동-->
+        <div id="list"><a href="../HTML/SecondPage.html">LIST</a></div> <!--Second Page 이동-->
     </div>
 
     <div class="balls"> <!--공 부분 / 높낮이때문에 P와 L 순서 바꿈-->
@@ -19,11 +19,13 @@
             <div class="b2"><button type="button" id="button" onclick="changeImage()">L</button></div> 
             <!--자바 / 이미지 변환 / man <-> girl-->
         </div>
-        <div id="w1"> 
-            <div class="b1"> P</div> <!--하이퍼링크 / Footer Page 이동-->
+        
+        <div id="w1">
+            <div id="b1"><button type="button" id="button1" onclick="bounce1()"> P </button></div>
         </div>
+
         <div id="w3">
-            <div class="b3">A</div>
+            <div id="b3"><button type="button" id="button2" onclick="bounce2()"> A </button></div>
         </div>
     </div>
 
