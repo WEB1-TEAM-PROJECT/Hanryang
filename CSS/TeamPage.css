@@ -3,22 +3,70 @@ body {
     height:100%;
     margin:0px;
 }
+
+/* 네비게이션 스타일 */
+.nav{
+    height:42px;
+    background-color:rgb(26, 36, 117);
+}
+
+#logo,#list,#team {
+    display:inline-block;
+}
+
+#logo {
+    margin-left:30px;
+    padding:5px;
+    font-size:x-large;
+    font-weight: bold;
+    color:white;
+}
+
+#list,#team {
+    margin-right:50px;
+    padding:9px;
+    font-size:large;
+    float:right;
+    color:white;
+}
+
+#logo:hover {
+    background-color: rgba(58, 80, 249, 0.632);
+}
+
+#team:hover {
+    background-color: rgba(58, 80, 249, 0.632);
+}
+
+#list:hover {
+    background-color: rgba(58, 80, 249, 0.632);
+}
+
+/* 하이퍼링크의 스타일 제거 */
+a {
+    color:inherit;
+    text-decoration-line: none;
+ } 
+
+/* background style */
 #half{
     width: 100%;
-    height: 100%;
+    height: 50%;
     background: linear-gradient(rgb(26, 36, 117) 50%, #fff 20%);
     z-index: 0;
     text-align: center;
     vertical-align: middle;
 }
 
+
+/*content style */
 #main{
     width: 85%;
     height: 70%;
     border-radius: 20px;
     border: 1px rgb(26, 36, 117) solid;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
     display: inline-block;
     background-color: #fff;
     z-index: 1;
