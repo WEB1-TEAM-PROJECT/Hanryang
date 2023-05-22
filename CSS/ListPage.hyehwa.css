@@ -1,8 +1,8 @@
 body{
     background: linear-gradient(
     to bottom,
-    #3065AC 0%,
-    #3065AC 20%,
+    #DB4455 0%,
+    #DB4455 20%,
     #fff 20%,
     #fff 100%
   );
@@ -12,7 +12,7 @@ body{
 .to_home{
     width: 400px;
     height: 70px;
-    background-color: #3065AC;
+    background-color: #DB4455;
     border: none;
     font-family:'Courier New', Courier, monospace;
     font-weight: bold;
