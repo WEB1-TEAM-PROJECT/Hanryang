@@ -30,7 +30,7 @@ body{
 #map{
     position: absolute;
     border: solid 10px;
-    border-color: skyblue;
+    border-color: #F7F7AD;
     left: 47%;
     height: 300px;
     width: 50%;
@@ -108,7 +108,7 @@ html, body{
 }
 
 .place_name {
-    color: #3066acba;
+    color: #d7d17b;
     padding: 10px;
     padding-top:20px;
     font-size: 34px;
@@ -120,7 +120,7 @@ html, body{
 }
 
 #firstName, #secondName, #thirdName {
-    color: #3066acba;
+    color: #d7d17b;
 }
 
 .place_des {
