@@ -110,6 +110,7 @@ html, body{
 .place_name {
     color: #0f465e;
     padding: 10px;
+    padding-top:20px;
     font-size: 38px;
     font-weight: bold;
     display: flex;
