@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link type="text/css" rel="stylesheet" href="../CSS/recommend.css">
     <title>Hanyarng recommend</title>
+    <script src="../JavaScript/recommend.js"></script>
 </head>
 <body>
     <div class="nav">
@@ -41,23 +42,23 @@
                             <td>
                                 <figure>
                                     <label>
-                                    <image src="../IMG/free-icon-exhibition-2400560.png"></image>
-                                    <figcaption><input type ="checkbox" name="ex" checked>전시회</figcaption>
+                                    <image src="../IMG/전시.png"></image>
+                                    <figcaption><input type ="checkbox" name="ex" checked>전시</figcaption>
                                     </label>
                                 </figure>
                             </td>
                             <td>
                                 <figure>
                                     <label>
-                                    <image src="../IMG/music.png"></image>
-                                    <figcaption><input type ="checkbox" name="ex" checked>페스티벌</figcaption>
+                                    <image src="../IMG/고궁및박물관.png"></image>
+                                    <figcaption><input type ="checkbox" name="ex" checked>고궁/박물관</figcaption>
                                     </label>
                                 </figure></td>
                             <td>
                                 <figure>
                                     <label>
-                                    <image src="../IMG/concert (1).png"></image>
-                                    <figcaption><input type ="checkbox" name="ex">콘서트</figcaption>
+                                    <image src="../IMG/복합문화공간.png"></image>
+                                    <figcaption><input type ="checkbox" name="ex">복합문화공간</figcaption>
                                     </label>
                                 </figure>
                             </td>
@@ -66,15 +67,15 @@
                             <td>
                                 <figure>
                                     <label>
-                                    <image src="../IMG/free-icon-walk-2159482.png"></image>
-                                    <figcaption><input type ="checkbox" name="ex" checked>공원 산책</figcaption>
+                                    <image src="../IMG/공원.png"></image>
+                                    <figcaption><input type ="checkbox" name="ex" checked>공원</figcaption>
                                     </label>
                                 </figure>
                             </td>
                             <td>
                                 <figure>
                                     <label>
-                                    <image src="../IMG/free-icon-theater-708915.png"></image>
+                                    <image src="../IMG/공연관람.png"></image>
                                     <figcaption><input type ="checkbox" name="ex">공연 관람</figcaption>
                                     </label>
                                 </figure>
@@ -82,8 +83,8 @@
                             <td>
                                 <figure>
                                     <label>
-                                        <image src="../IMG/free-icon-climbing-2513189.png"></image>
-                                        <figcaption><input type ="checkbox" name="ex">실내 스포츠</figcaption>
+                                        <image src="../IMG/실내 액티비티.png"></image>
+                                        <figcaption><input type ="checkbox" name="ex">실내 액티비티</figcaption>
                                     </label>
                                 </figure>
                             </td>
@@ -92,15 +93,15 @@
                             <td>
                                 <figure>
                                     <label>
-                                    <image src="../IMG/porcelain.png"></image>
-                                    <figcaption><input type ="checkbox" name="ex">공방 체험</figcaption>
+                                    <image src="../IMG/공방.png"></image>
+                                    <figcaption><input type ="checkbox" name="ex">공방</figcaption>
                                     </label>
                                 </figure>
                             </td>
                             <td>
                                 <figure>
                                     <label>
-                                    <image src="../IMG/online-shopping.png"></image>
+                                    <image src="../IMG/팝업스토어.png"></image>
                                     <figcaption><input type ="checkbox" name="ex">팝업 스토어</figcaption>
                                     </label>
                                 </figure>
@@ -108,15 +109,15 @@
                             <td>
                                 <figure>
                                     <label>
-                                    <image src="../IMG/free-icon-reading-769624.png"></image>
-                                    <figcaption><input type = "checkbox" name="ex">북카페</figcaption>
+                                    <image src="../IMG/힐링.png"></image>
+                                    <figcaption><input type = "checkbox" name="ex">힐링 스페이스</figcaption>
                                     </label>
                                 </figure>
                             </td>
                         </tr>
                         </table>
                     </fieldset>
-                    <button type="button"><a href="rec_result.html">추천 결과 보러가기</a></button>
+                    <button type="button" onclick="recommend();"><a href="rec_result.html">추천 결과 보러가기</a></button>
                 </form>
             </div>
         </div>
