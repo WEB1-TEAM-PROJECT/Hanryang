@@ -8,17 +8,18 @@ body, html{
 
  /* 네비게이션 스타일 */
 .nav{
-    height:42px;
+    height:45px;
     background-color:#ab5e068b;
 }
 
 #logo,#list,#team {
     display:inline-block;
+    position: relative;
 }
 
 #logo {
     margin-left:30px;
-    padding:10px;
+    padding:5px;
     font-size:x-large;
     font-weight: bold;
 }
@@ -30,16 +31,21 @@ body, html{
     float:right;
 }
 
-#logo:hover {
-    background-color: #7B5326;
-}
-
-#team:hover {
-    background-color: #7B5326;
-}
-
-#list:hover {
-    background-color: #7B5326;
+#logo::after,#list::after, #team::after{
+    position:absolute; 
+    bottom: 0; 
+    left: 0; 
+    display: block; 
+    content: ''; 
+    width: 100%; 
+    border-bottom: 3px solid black; 
+    height: 1px; transform: translateY(-15px); 
+    opacity: 0; 
+    transition: all 0.5s;
+  }
+#logo:hover::after, #list:hover::after, #team:hover::after{
+    opacity: 1; 
+    transform: translateY(-5px);
 }
 
 /* 하이퍼링크의 스타일 제거 */
