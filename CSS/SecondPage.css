@@ -1,13 +1,100 @@
+ /* 배경 스타일 */
 body, html{
     height:100%;
     width:100%;
+    margin:0px;
     background-color:rgb(245, 241, 235);
-} /* 배경 스타일 */
+}
 
-#sungsu,#hongdae,#hyehwa,#bukchon,#gangnam,#recommend{
+ /* 네비게이션 스타일 */
+.nav{
+    height:42px;
+    background-color:#ab5e068b;
+}
+
+#logo,#list,#team {
     display:inline-block;
-    margin-left:190px;
-    margin-top:70px;
-    width:250px;
-    height:250px;
-} /* 목차 스타일 */
+}
+
+#logo {
+    margin-left:30px;
+    padding:5px;
+    font-size:x-large;
+    font-weight: bold;
+}
+
+#list,#team {
+    margin-right:50px;
+    padding:9px;
+    font-size:large;
+    float:right;
+}
+
+#logo:hover {
+    background-color: #7B5326;
+}
+
+#team:hover {
+    background-color: #7B5326;
+}
+
+#list:hover {
+    background-color: #7B5326;
+}
+
+/* 하이퍼링크의 스타일 제거 */
+a {
+    color:inherit;
+    text-decoration-line: none;
+ } 
+
+ /* 목차 스타일 - 1 row */
+.sungsu,#sungsu,#sungsu1,#hongdae,#hongdae1,.hongdae,#hyehwa,#hyehwa1,.hyehwa {
+    display:inline-block;
+} 
+
+#sungsu,#hongdae,#hyehwa {
+    margin-left:100px;
+    margin-top:30px;
+    width:230px;
+    height:230px;
+}
+
+#sungsu1,#hongdae1,#hyehwa1 {
+    margin-left:100px;
+    padding:5px;
+    padding-left:80px;
+    padding-right:80px;
+    background-color:#7B5326;
+    color:white;
+}
+
+/* 목차 스타일 - 2 row */
+.bukchon,#bukchon,#bukchon1,#gangnam,#gangnam1,.gangnam,#recommend,#recommend1,.recommend {
+    display:inline-block;
+} 
+
+#bukchon,#gangnam,#recommend {
+    margin-left:100px;
+    margin-top:30px;
+    width:230px;
+    height:230px;
+}
+
+#bukchon1,#gangnam1 {
+    margin-left:100px;
+    padding:5px;
+    padding-left:80px;
+    padding-right:80px;
+    background-color:#7B5326;
+    color:white;
+}
+
+#recommend1 {
+    margin-left:100px;
+    padding:5px;
+    padding-left:70px;
+    padding-right:70px;
+    background-color:#7B5326;
+    color:white;
+}
