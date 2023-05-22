@@ -4,13 +4,13 @@ function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
         
         //처음 중심 좌표
-        center: {
-            lat: 37.580624,
-            lng: 126.996020
+        center: { //37.58226107673219,
+            lat: 37.58226107673219,
+            lng: 127.00199833615758
         },
         
         //처음 줌 값. 숫자가 작을수록 낮은 배율
-        zoom: 14
+        zoom: 15
     });
 
     //마커 정보
