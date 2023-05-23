@@ -1,5 +1,6 @@
+"<a href='#'><img src='#' border='0' width='100%' height='100%'></a>";
 조용한 놀거리
-전시 / 박물관
+전시
 1.나탈리 카르푸셴코 사진전, 전시
 https://groundseesaw.co.kr/product/%eb%82%98%ed%83%88%eb%a6%ac-%ec%b9%b4%eb%a5%b4%ed%91%b8%ec%85%b4%ec%bd%94-%ec%82%ac%ec%a7%84%ec%a0%84/
 2.지구에 커튼을 쳐 줄게, 전시
@@ -7,8 +8,6 @@ https://www.sangsangmadang.com/display/detail/2356
 3.아이뮤지엄 젤리스, 전시
 https://tickets.interpark.com/goods/23004816?app_tapbar_state=hide&
 https://booking.naver.com/booking/5/bizes/711986
-4. 국립민속 박물관
-https://www.nfm.go.kr/home/subIndex/1239.do#;
 5. 갤러리 애프터눈티
 https://www.galleryafternoon.com/
 6. 국립 현대 미술관
@@ -16,6 +15,13 @@ https://www.mmca.go.kr/
 7. 뮤지엄 한미 - 삼청 별관
 https://museumhanmi.or.kr/
 
+고궁 및 박물관
+1.국립민속 박물관
+https://www.nfm.go.kr/home/subIndex/1239.do#;
+2.창경궁
+https://cgg.cha.go.kr/agapp/main/index.do?siteCd=CGG
+3.창덕궁 달빛 기행
+https://www.chf.or.kr/cont/view/fest/month/menu/210?thisPage=1&idx=109015&searchCategory1=600&searchCategory2=&searchField=all&searchDate=202304&weekSel=&searchText=
 
 
 
@@ -54,8 +60,7 @@ https://dgdg.modoo.at/
 http://cafetherapy.net
 6. 혜화 그림 제작소, 드로잉 카페
 http://grimfactory.kr/bbs/board.php?bo_table=store
-7. 창경궁
-https://cgg.cha.go.kr/agapp/main/index.do?siteCd=CGG
+
 8. 별마당도서관
 https://m.starfield.co.kr/coexmall/tenant/starfieldLibrary
 9. 도토리 캐리커쳐
@@ -82,8 +87,7 @@ https://www.tfactory.co.kr/main/store
 https://상상의문.com/layout/res/home.php?go=rev.make
 5. 일상 비일상의 틈, 복합문화공간
 https://www.lguplus.com/benefit/dailyteum
-6. 창덕궁 달빛 기행
-https://www.chf.or.kr/cont/view/fest/month/menu/210?thisPage=1&idx=109015&searchCategory1=600&searchCategory2=&searchField=all&searchDate=202304&weekSel=&searchText=
+
 
 
 공방
