@@ -153,8 +153,8 @@ html, body{
     padding:25px;
     padding-right: 130px;
     padding-bottom: 80px;
-    border-right: 3px solid #DB4455;
-    border-bottom: 3px solid #DB4455;
+    border-right: 3px solid #3065AC;
+    border-bottom: 3px solid #3065AC;
 }
 
 #secondWrapper{
@@ -162,17 +162,17 @@ html, body{
     padding: 25px;
     padding-left:120px;
     padding-right:120px;
-    border-left: 3px solid #DB4455;
-    border-right: 3px solid #DB4455;
-    border-bottom: 3px solid #DB4455;
+    border-left: 3px solid #3065AC;
+    border-right: 3px solid #3065AC;
+    border-bottom: 3px solid #3065AC;
 }
 
 #thirdWrapper{
     padding:25px;
     padding-left: 130px;
     padding-bottom: 80px;
-    border-left: 3px solid #DB4455;
-    border-bottom: 3px solid #DB4455;
+    border-left: 3px solid #3065AC;
+    border-bottom: 3px solid #3065AC;
     
 }
 
@@ -183,9 +183,9 @@ html, body{
     padding-right: 130px;
     padding-top: 80px;
     padding-bottom: 80px;
-    border-top: 3px solid #DB4455;
-    border-right: 3px solid #DB4455;
-    border-bottom: 3px solid #DB4455;
+    border-top: 3px solid #3065AC;
+    border-right: 3px solid #3065AC;
+    border-bottom: 3px solid #3065AC;
     
 }
 
@@ -194,7 +194,7 @@ html, body{
     padding: 80px;
     padding-left:120px;
     padding-right:120px;
-    border: 3px solid #DB4455;
+    border: 3px solid #3065AC;
     
 }
 
@@ -203,9 +203,9 @@ html, body{
     padding-top: 80px;
     padding-bottom: 80px;
     padding-left: 130px;
-    border-top: 3px solid #DB4455;
-    border-left: 3px solid #DB4455;
-    border-bottom: 3px solid #DB4455;
+    border-top: 3px solid #3065AC;
+    border-left: 3px solid #3065AC;
+    border-bottom: 3px solid #3065AC;
     
 }
 
@@ -215,8 +215,8 @@ html, body{
     padding:25px;
     padding-right: 130px;
     padding-top: 80px;
-    border-top: 3px solid #DB4455;
-    border-right: 3px solid #DB4455;
+    border-top: 3px solid #3065AC;
+    border-right: 3px solid #3065AC;
     
 }
 
@@ -225,9 +225,9 @@ html, body{
     padding: 80px;
     padding-left:120px;
     padding-right:120px;
-    border-left: 3px solid #DB4455;
-    border-top: 3px solid #DB4455;
-    border-right: 3px solid #DB4455;
+    border-left: 3px solid #3065AC;
+    border-top: 3px solid #3065AC;
+    border-right: 3px solid #3065AC;
 
 }
 
@@ -235,7 +235,7 @@ html, body{
     padding:25px;
     padding-left: 130px;
     padding-top: 80px;
-    border-left: 3px solid #DB4455;
-    border-top: 3px solid #DB4455;
+    border-left: 3px solid #3065AC;
+    border-top: 3px solid #3065AC;
     
 }

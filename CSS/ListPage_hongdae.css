@@ -119,10 +119,6 @@ html, body{
     
 }
 
-#firstName, #secondName, #thirdName {
-    color: #fd96a7;
-}
-
 .place_des {
     color: gray;
     font-size: 20px;
