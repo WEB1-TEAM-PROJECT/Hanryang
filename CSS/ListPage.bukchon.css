@@ -7,33 +7,57 @@ body{
     #fff 100%
   );
 }
-/*홈페이지*/
+/*네비게이션*/
+.nav{
+    height:45px;
+    background-color: #5F87E1;
+}
 
-.to_home{
-    width: 400px;
-    height: 70px;
-    background-color: #3065AC;
-    border: none;
-    font-family:'Courier New', Courier, monospace;
+#logo,#list,#team {
+    display:inline-block;
+    position: relative;
+}
+
+#logo {
+    margin-left:30px;
+    padding:5px;
+    font-size:x-large;
     font-weight: bold;
 }
-.to_home a{
-    color: #fff;
-    font-size: 50px;
-    text-decoration: none;
+
+#list,#team {
+    margin-right:50px;
+    padding:9px;
+    font-size:large;
+    float:right;
 }
 
-.to_home a:hover{
-    text-decoration: underline;
+#logo::after,#list::after, #team::after{
+    position:absolute; 
+    bottom: 0; 
+    left: 0; 
+    display: block; 
+    content: ''; 
+    width: 100%; 
+    border-bottom: 3px solid black; 
+    height: 1px; transform: translateY(-15px); 
+    opacity: 0; 
+    transition: all 0.5s;
 }
+#logo:hover::after, #list:hover::after, #team:hover::after{
+    opacity: 1; 
+    transform: translateY(-5px);
+}
+
 /*지도*/
 #map{
     position: absolute;
-    border: solid 10px;
-    border-color: skyblue;
+    border: solid 30px;
+    border-color: #5A78AF;
+    margin-left:40px;
     left: 47%;
     height: 300px;
-    width: 50%;
+    width: 90%;
     transform: translate(-50%, 0%);
 }
 div.wrap {
@@ -153,8 +177,8 @@ html, body{
     padding:25px;
     padding-right: 130px;
     padding-bottom: 80px;
-    border-right: 3px solid #DB4455;
-    border-bottom: 3px solid #DB4455;
+    border-right: 3px solid #3065AC;
+    border-bottom: 3px solid #3065AC;
 }
 
 #secondWrapper{
@@ -162,17 +186,17 @@ html, body{
     padding: 25px;
     padding-left:120px;
     padding-right:120px;
-    border-left: 3px solid #DB4455;
-    border-right: 3px solid #DB4455;
-    border-bottom: 3px solid #DB4455;
+    border-left: 3px solid #3065AC;
+    border-right: 3px solid #3065AC;
+    border-bottom: 3px solid #3065AC;
 }
 
 #thirdWrapper{
     padding:25px;
     padding-left: 130px;
     padding-bottom: 80px;
-    border-left: 3px solid #DB4455;
-    border-bottom: 3px solid #DB4455;
+    border-left: 3px solid #3065AC;
+    border-bottom: 3px solid #3065AC;
     
 }
 
@@ -183,9 +207,9 @@ html, body{
     padding-right: 130px;
     padding-top: 80px;
     padding-bottom: 80px;
-    border-top: 3px solid #DB4455;
-    border-right: 3px solid #DB4455;
-    border-bottom: 3px solid #DB4455;
+    border-top: 3px solid #3065AC;
+    border-right: 3px solid #3065AC;
+    border-bottom: 3px solid #3065AC;
     
 }
 
@@ -194,7 +218,7 @@ html, body{
     padding: 80px;
     padding-left:120px;
     padding-right:120px;
-    border: 3px solid #DB4455;
+    border: 3px solid #3065AC;
     
 }
 
@@ -203,9 +227,9 @@ html, body{
     padding-top: 80px;
     padding-bottom: 80px;
     padding-left: 130px;
-    border-top: 3px solid #DB4455;
-    border-left: 3px solid #DB4455;
-    border-bottom: 3px solid #DB4455;
+    border-top: 3px solid #3065AC;
+    border-left: 3px solid #3065AC;
+    border-bottom: 3px solid #3065AC;
     
 }
 
@@ -215,8 +239,8 @@ html, body{
     padding:25px;
     padding-right: 130px;
     padding-top: 80px;
-    border-top: 3px solid #DB4455;
-    border-right: 3px solid #DB4455;
+    border-top: 3px solid #3065AC;
+    border-right: 3px solid #3065AC;
     
 }
 
@@ -225,9 +249,9 @@ html, body{
     padding: 80px;
     padding-left:120px;
     padding-right:120px;
-    border-left: 3px solid #DB4455;
-    border-top: 3px solid #DB4455;
-    border-right: 3px solid #DB4455;
+    border-left: 3px solid #3065AC;
+    border-top: 3px solid #3065AC;
+    border-right: 3px solid #3065AC;
 
 }
 
@@ -235,7 +259,7 @@ html, body{
     padding:25px;
     padding-left: 130px;
     padding-top: 80px;
-    border-left: 3px solid #DB4455;
-    border-top: 3px solid #DB4455;
+    border-left: 3px solid #3065AC;
+    border-top: 3px solid #3065AC;
     
 }

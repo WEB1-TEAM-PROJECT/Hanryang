@@ -12,6 +12,7 @@ body {
 
 #logo,#list,#team {
     display:inline-block;
+    position: relative;
 }
 
 #logo {
@@ -30,17 +31,24 @@ body {
     color:white;
 }
 
-#logo:hover {
-    background-color: rgba(58, 80, 249, 0.632);
+#logo::after,#list::after, #team::after{
+    position:absolute; 
+    bottom: 0; 
+    left: 0; 
+    display: block; 
+    content: ''; 
+    width: 100%; 
+    border-bottom: 3px solid #fff; 
+    height: 1px; transform: translateY(-15px); 
+    opacity: 0; 
+    transition: all 0.5s;
 }
 
-#team:hover {
-    background-color: rgba(58, 80, 249, 0.632);
+#logo:hover::after, #list:hover::after, #team:hover::after{
+    opacity: 1; 
+    transform: translateY(-5px);
 }
 
-#list:hover {
-    background-color: rgba(58, 80, 249, 0.632);
-}
 
 /* 하이퍼링크의 스타일 제거 */
 a {
@@ -59,8 +67,6 @@ a {
     vertical-align: middle;
 }
 
-
-/*content style */
 #main{
     width: 85%;
     height: 70%;
