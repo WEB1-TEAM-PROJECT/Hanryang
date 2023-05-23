@@ -7,33 +7,58 @@ body{
     #fff 100%
   );
 }
-/*홈페이지*/
 
-.to_home{
-    width: 400px;
-    height: 70px;
-    background-color: #FFC0CB;
-    border: none;
-    font-family:'Courier New', Courier, monospace;
+/*네비게이션*/
+.nav{
+    height:45px;
+    background-color: #FF92B1;
+}
+
+#logo,#list,#team {
+    display:inline-block;
+    position: relative;
+}
+
+#logo {
+    margin-left:30px;
+    padding:5px;
+    font-size:x-large;
     font-weight: bold;
 }
-.to_home a{
-    color: #fff;
-    font-size: 50px;
-    text-decoration: none;
+
+#list,#team {
+    margin-right:50px;
+    padding:9px;
+    font-size:large;
+    float:right;
 }
 
-.to_home a:hover{
-    text-decoration: underline;
+#logo::after,#list::after, #team::after{
+    position:absolute; 
+    bottom: 0; 
+    left: 0; 
+    display: block; 
+    content: ''; 
+    width: 100%; 
+    border-bottom: 3px solid black; 
+    height: 1px; transform: translateY(-15px); 
+    opacity: 0; 
+    transition: all 0.5s;
 }
+#logo:hover::after, #list:hover::after, #team:hover::after{
+    opacity: 1; 
+    transform: translateY(-5px);
+}
+
 /*지도*/
 #map{
     position: absolute;
-    border: solid 10px;
-    border-color: #fd96a7;
+    border: solid 30px;
+    border-color: #FFA6CF;
+    margin-left:40px;
     left: 47%;
     height: 300px;
-    width: 50%;
+    width: 90%;
     transform: translate(-50%, 0%);
 }
 div.wrap {
