@@ -106,7 +106,7 @@ a {
     z-index: 1;
 }
 #start, #gender, #kind, #picktable, #with{
-    z-index: 2;
+    z-index: 3;
 }
 
 figure{

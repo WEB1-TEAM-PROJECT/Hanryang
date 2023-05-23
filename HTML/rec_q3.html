@@ -14,115 +14,124 @@
     </div>
     <div id="half">
         <div id="main">
-            <h1>Question 3</h1>
-            <h2>어떤 종류의 활동을 원하세요?</h2>
-            <div id="kind">
-                <form>
-                    <figure>
-                        <label>
-                        <image src="../IMG/calm1.png"></image>
-                        <figcaption><input type ="radio" name="kind" checked>정적인 놀거리</figcaption>
-                        </label>
-                    </figure>
-                    <figure>
-                        <label>
-                        <image src="../IMG/tent.png"></image>
-                        <figcaption><input type ="radio" name="kind">활동적인 놀거리</figcaption>
-                        </label>
-                    </figure>
-                    <br>
-                </form>
+            <div id="q3" style="display:inline-block">
+                <h1>Question 3</h1>
+                <h2>어떤 종류의 활동을 원하세요?</h2>
+                <div id="kind">
+                    <form>
+                        <figure>
+                            <label>
+                            <image src="../IMG/calm1.png"></image>
+                            <figcaption><input type ="radio" name="kind" checked>정적인 놀거리</figcaption>
+                            </label>
+                        </figure>
+                        <figure>
+                            <label>
+                            <image src="../IMG/tent.png"></image>
+                            <figcaption><input type ="radio" name="kind">활동적인 놀거리</figcaption>
+                            </label>
+                        </figure>
+                        <br>
+                    </form>
+                </div>
+                <div id="picktable">
+                    <form>
+                        <fieldset>
+                            <legend>원하는 스타일의 활동을 <a id="unl">모두</a> 골라주세요 !</legend>
+                            <table>
+                            <tr>
+                                <td>
+                                    <figure>
+                                        <label>
+                                        <image src="../IMG/전시.png"></image>
+                                        <figcaption><input type ="checkbox" name="ex" id="arr2" checked>전시</figcaption>
+                                        </label>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <figure>
+                                        <label>
+                                        <image src="../IMG/고궁및박물관.png"></image>
+                                        <figcaption><input type ="checkbox" name="ex" id="arr1" checked>고궁/박물관</figcaption>
+                                        </label>
+                                    </figure></td>
+                                <td>
+                                    <figure>
+                                        <label>
+                                        <image src="../IMG/복합문화공간.png"></image>
+                                        <figcaption><input type ="checkbox" name="ex" id="arr6">복합문화공간</figcaption>
+                                        </label>
+                                    </figure>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <figure>
+                                        <label>
+                                        <image src="../IMG/공원.png"></image>
+                                        <figcaption><input type ="checkbox" name="ex" id="arr5">공원</figcaption>
+                                        </label>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <figure>
+                                        <label>
+                                        <image src="../IMG/공연관람.png"></image>
+                                        <figcaption><input type ="checkbox" name="ex" id="arr4">공연 관람</figcaption>
+                                        </label>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <figure>
+                                        <label>
+                                            <image src="../IMG/실내 액티비티.png"></image>
+                                            <figcaption><input type ="checkbox" name="ex" id="arr7">실내 액티비티</figcaption>
+                                        </label>
+                                    </figure>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <figure>
+                                        <label>
+                                        <image src="../IMG/공방.png"></image>
+                                        <figcaption><input type ="checkbox" name="ex" id="arr3">공방</figcaption>
+                                        </label>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <figure>
+                                        <label>
+                                        <image src="../IMG/팝업스토어.png"></image>
+                                        <figcaption><input type ="checkbox" name="ex" id="arr9">팝업 스토어</figcaption>
+                                        </label>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <figure>
+                                        <label>
+                                        <image src="../IMG/힐링.png"></image>
+                                        <figcaption><input type = "checkbox" name="ex" id="arr8">힐링 스페이스</figcaption>
+                                        </label>
+                                    </figure>
+                                </td>
+                            </tr>
+                            </table>
+                        </fieldset>
+                        <button type="button" id="submit">답변 완료</button>
+                    </form>
+                </div>
             </div>
-            <div id="picktable">
-                <form>
-                    <fieldset>
-                        <legend>원하는 스타일의 활동을 <a id="unl">모두</a> 골라주세요 !</legend>
-                        <table>
-                        <tr>
-                            <td>
-                                <figure>
-                                    <label>
-                                    <image src="../IMG/전시.png"></image>
-                                    <figcaption><input type ="checkbox" name="ex" id="arr2" checked>전시</figcaption>
-                                    </label>
-                                </figure>
-                            </td>
-                            <td>
-                                <figure>
-                                    <label>
-                                    <image src="../IMG/고궁및박물관.png"></image>
-                                    <figcaption><input type ="checkbox" name="ex" id="arr1" checked>고궁/박물관</figcaption>
-                                    </label>
-                                </figure></td>
-                            <td>
-                                <figure>
-                                    <label>
-                                    <image src="../IMG/복합문화공간.png"></image>
-                                    <figcaption><input type ="checkbox" name="ex">복합문화공간</figcaption>
-                                    </label>
-                                </figure>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <figure>
-                                    <label>
-                                    <image src="../IMG/공원.png"></image>
-                                    <figcaption><input type ="checkbox" name="ex" checked>공원</figcaption>
-                                    </label>
-                                </figure>
-                            </td>
-                            <td>
-                                <figure>
-                                    <label>
-                                    <image src="../IMG/공연관람.png"></image>
-                                    <figcaption><input type ="checkbox" name="ex">공연 관람</figcaption>
-                                    </label>
-                                </figure>
-                            </td>
-                            <td>
-                                <figure>
-                                    <label>
-                                        <image src="../IMG/실내 액티비티.png"></image>
-                                        <figcaption><input type ="checkbox" name="ex">실내 액티비티</figcaption>
-                                    </label>
-                                </figure>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <figure>
-                                    <label>
-                                    <image src="../IMG/공방.png"></image>
-                                    <figcaption><input type ="checkbox" name="ex">공방</figcaption>
-                                    </label>
-                                </figure>
-                            </td>
-                            <td>
-                                <figure>
-                                    <label>
-                                    <image src="../IMG/팝업스토어.png"></image>
-                                    <figcaption><input type ="checkbox" name="ex">팝업 스토어</figcaption>
-                                    </label>
-                                </figure>
-                            </td>
-                            <td>
-                                <figure>
-                                    <label>
-                                    <image src="../IMG/힐링.png"></image>
-                                    <figcaption><input type = "checkbox" name="ex">힐링 스페이스</figcaption>
-                                    </label>
-                                </figure>
-                            </td>
-                        </tr>
-                        </table>
-                    </fieldset>
-                    <button type="button" id="submit">추천 결과 보러가기</button>
-                    <button type="button" onclick="recommend();">추천 결과</button><br><br><span class="arrow"></span>
-            <div id="result">
-                
-            </div>
-                </form>
+            <div id="result" style="display:none">
+                <h1>오늘 당신을 위한 놀거리는?</h1>
+                <button type="button" onclick="recommend();">추천 결과 보기</button><br><br><span class="arrow"></span>
+                <div id="show">
+
+                </div>
+                <div id="after" style="display:none">
+                    <p style="background-color: rgba(211, 211, 211, 0.5)">이미지/글씨를 누르면 홈페이지로 연결됩니다</p>
+                <button type="button"><a href="../HTML/SecondPage.html">다른 놀거리 더 둘러보기</a></button>
+                </div>
             </div>
         </div>
     </div>

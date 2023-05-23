@@ -1,4 +1,4 @@
-"<a href='#'><img src='#' border='0' width='100%' height='100%'></a>";
+arr[]="<a href='#'><img src='#' border='0' width='100%' height='100%'><br></a>";
 조용한 놀거리
 전시
 1.나탈리 카르푸셴코 사진전, 전시
@@ -8,11 +8,11 @@ https://www.sangsangmadang.com/display/detail/2356
 3.아이뮤지엄 젤리스, 전시
 https://tickets.interpark.com/goods/23004816?app_tapbar_state=hide&
 https://booking.naver.com/booking/5/bizes/711986
-5. 갤러리 애프터눈티
+4. 갤러리 애프터눈티
 https://www.galleryafternoon.com/
-6. 국립 현대 미술관
+5. 국립 현대 미술관
 https://www.mmca.go.kr/
-7. 뮤지엄 한미 - 삼청 별관
+6. 뮤지엄 한미 - 삼청 별관
 https://museumhanmi.or.kr/
 
 고궁 및 박물관
@@ -27,13 +27,8 @@ https://www.chf.or.kr/cont/view/fest/month/menu/210?thisPage=1&idx=109015&search
 
 
 
-카페
-1.카페 할아버지공장
-http://gffactory.co.kr/main/main.php
-2.피에스비 커피바 , 카페
-https://www.instagram.com/psb_coffeebar/
 
-공원
+공원 5
 1.서울숲 공원
 https://seoulforest.or.kr/info/park-info
 2. 낙산공원
@@ -47,26 +42,26 @@ http://parks.seoul.go.kr/parks/detailView.do?pIdx=109
 
 
 
-기타
-1.그린랩(힐링 스튜디오)
+힐링/ 카페 8
+1.그린랩(힐링 스튜디오) - 성수
 https://www.instagram.com/greenlab_seoulforest/
-2. 성수미술관, 드로잉 카페
+2. 성수미술관, 드로잉 카페 - 성수
 https://seongsumuseum.com/
-3. 인디스페이스(독립 영화 관람)
-http://indiespace.tistory.com/
-4. 딩굴딩굴 알타미라, 만화카페
+3. 딩굴딩굴 알타미라, 만화카페 - 홍대
 https://dgdg.modoo.at/
-5. 카페테라피, 상담 카페
+4. 카페테라피, 상담 카페 - 혜화
 http://cafetherapy.net
-6. 혜화 그림 제작소, 드로잉 카페
+5. 혜화 그림 제작소, 드로잉 카페 - -혜화
 http://grimfactory.kr/bbs/board.php?bo_table=store
-
-8. 별마당도서관
+6. 별마당도서관 - 강남
 https://m.starfield.co.kr/coexmall/tenant/starfieldLibrary
-9. 도토리 캐리커쳐
+7. 도토리 캐리커쳐
 https://www.instagram.com/acorn_caricature/?hl=ko
-10. 북촌 한옥마을
-https://hanok.seoul.go.kr/front/kor/town/town01.do
+8.카페 할아버지공장 - 성수
+http://gffactory.co.kr/main/main.php
+9.피에스비 커피바 , 카페 - 성수
+https://www.instagram.com/psb_coffeebar/
+
 
 
 
@@ -76,21 +71,23 @@ https://hanok.seoul.go.kr/front/kor/town/town01.do
 
 활동적인 놀거리
 
-복합문화공간 / 체험
+복합문화공간 / 체험 
 1.리얼월드 성수
 http://seongsu.realworld.to/
 2. 공간 와디즈
 (복합체험공간)https://www.instagram.com/gonggan_wadiz/
 3. 티팩토리, 복합문화공간
 https://www.tfactory.co.kr/main/store
-4. 상상의 문, 엔터테이멘트
+4. 상상의 문, 엔터테이멘트 -혜화
 https://상상의문.com/layout/res/home.php?go=rev.make
-5. 일상 비일상의 틈, 복합문화공간
+5. 일상 비일상의 틈, 복합문화공간 - 강남
 https://www.lguplus.com/benefit/dailyteum
+6. 북촌 한옥마을
+https://hanok.seoul.go.kr/front/kor/town/town01.do
 
 
 
-공방
+공방 
 1. 도자기 포트링 공방
 https://www.instagram.com/pottring/
 2. 121르말뒤페이, 향수 공방
@@ -98,39 +95,41 @@ https://121lemaldupays.com/
 3. 강남 반지대학, 반지 공방
 ringuniv.com/campus/kn/
 
-연극
+공연 관람
 1. 대학로 연극로, 연극
 http://ticket.interpark.com/contents/Ranking/RankList?pKind=01009&pType=D
+2. 인디스페이스(독립 영화 관람)
+http://indiespace.tistory.com/
 
 
-팝업스토어
-1. 마크곤잘레스
+팝업스토어 9
+1. 마크곤잘레스 - 성수
 https://www.markgonzaleskorea.com/product/single.html?product_no=444&cate_no=58&display_group=1
-2. 무신사 테라스
+2. 무신사 테라스 - 홍대
 https://www.musinsaterrace.com/
-3. 아이띵소, 쇼룸
+3. 아이띵소, 쇼룸 -혜화
 https://www.ithinksoshop.co.kr
 4. 퍼퓸그라피, 쇼룸
 https://perfumegraphy.com/product/list_project.html
-5. 샤넬 팝업스토어
+5. 샤넬 팝업스토어 - - 강남
 https://doasis.kr/16/?&bmode=view&idx=341149&t=board
-6. 탬버린즈 플래그쉽스토어
+6. 탬버린즈 플래그쉽스토어 - 북촌
 https://naver.me/xEqtxCp8
 
 
 
-기타
-1. 파이널나인, 홀덤펍
+실내 액티비티 
+1. 파이널나인, 홀덤펍 - - 강남
 https://www.finalnine.co.kr/?module=Board&action=SiteBoard&sMode=VIEW_FORM&iBrdNo=10&iBrdContNo=2&sBrdContRe=0&sSearchField=&sSearchValue=&CurrentPage=1
-2. 홍대 VR아케이드, vr
+2. 홍대 VR아케이드, vr -홍대
 http://vr-zone.co.kr/board/bbs/board.php?bo_table=franchise_sch&wr_id=3&page=3
-3. 템플스트라이크, 락볼링장
+3. 템플스트라이크, 락볼링장 - 강남
 https://여기유.com/place/25446
-4. 캠프 VR, VR체험
+4. 캠프 VR, VR체험 - 강남
 http://www.tmon.co.kr/deal/2932452370
-5. 시그널헌터, 방탈출카페
+5. 시그널헌터, 방탈출카페 - 강남
 https://www.signalhunter.co.kr/branch/?v=38dd815e66db
-6. 코인테니스펍, 액티비티
+6. 코인테니스펍, 액티비티 - 강남
 https://www.instagram.com/coin_tennis_pub/
 
 
