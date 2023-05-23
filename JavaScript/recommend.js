@@ -6,5 +6,5 @@ function recommend(){
 
     let rand = Math.floor(Math.random()*(arr1.length))
     
-    document.getElementById("result").src=arr1[rand];
+    document.getElementById("result").a = arr1[rand];
 }

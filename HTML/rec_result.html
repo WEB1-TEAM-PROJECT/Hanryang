@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link type="text/css" rel="stylesheet" href="../CSS/recommend.css">
     <title>Hanyarng recommend</title>
-    <script src="../JavaScript/recommend.js"></script>
+    <script defer src="../JavaScript/recommend.js"></script>
 </head>
 
 <body>
@@ -17,8 +17,10 @@
         <div id="main">
             <h1>오늘 당신을 위한 놀거리는?</h1>
             <h2>추천 결과<br><br><span class="arrow"></span></h2>
-            <iframe href="" name="result"></iframe><br>
-            <button type="button"><a href="">마음에 들어요!</a></button><!--관련 내용 볼 수 있는 개별 페이지로-->
+            <div id="result">
+                <a></a>
+            </div>
+            <button type="button"><a id="resultLink" href="">마음에 들어요!</a></button><!--관련 내용 볼 수 있는 정보 페이지로-->
             <a>&nbsp;&nbsp;</a>
             <button type="button"><a href="../HTML/SecondPage.html">더 둘러보기</a></button> <!--처음 홈페이지로-->
         </div>
