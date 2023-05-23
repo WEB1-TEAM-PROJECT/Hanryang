@@ -43,7 +43,7 @@
                                 <figure>
                                     <label>
                                     <image src="../IMG/전시.png"></image>
-                                    <figcaption><input type ="checkbox" name="ex" checked>전시</figcaption>
+                                    <figcaption><input type ="checkbox" name="ex" id="arr2" checked>전시</figcaption>
                                     </label>
                                 </figure>
                             </td>
@@ -51,7 +51,7 @@
                                 <figure>
                                     <label>
                                     <image src="../IMG/고궁및박물관.png"></image>
-                                    <figcaption><input type ="checkbox" name="ex" checked>고궁/박물관</figcaption>
+                                    <figcaption><input type ="checkbox" name="ex" id="arr1" checked>고궁/박물관</figcaption>
                                     </label>
                                 </figure></td>
                             <td>
@@ -117,7 +117,11 @@
                         </tr>
                         </table>
                     </fieldset>
-                    <button type="button" onclick="recommend();"><a href="rec_result.html">추천 결과 보러가기</a></button>
+                    <button type="button" id="submit">추천 결과 보러가기</button>
+                    <button type="button" onclick="recommend();">추천 결과</button><br><br><span class="arrow"></span>
+            <div id="result">
+                
+            </div>
                 </form>
             </div>
         </div>
