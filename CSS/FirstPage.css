@@ -58,6 +58,7 @@ body{
     font-size:2em;
     color:white;
     background-color: rgba(207, 194, 50, 0.856);
+    cursor: pointer;
 }
 
 /*ball wrapper style */
@@ -92,6 +93,7 @@ body{
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-play-state: paused;
+    cursor: pointer;
   }
   
   @keyframes bounceAnimation {
@@ -123,6 +125,7 @@ body{
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-play-state: paused;
+    cursor: pointer;
   }
   
   @keyframes bounceAnimation {
