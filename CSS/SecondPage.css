@@ -79,6 +79,7 @@ a {
 img{
     width:200px;
     height:200px;
+    
 }
 
 #frame {
@@ -88,7 +89,7 @@ img{
 
 #png{
     width:180px;
-    height:180px
+    height:180px;
 }
 
 /* 목록 style */
