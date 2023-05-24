@@ -65,7 +65,7 @@ a {
 }
 #main{
     width: 85%;
-    height: 70%;
+    height: 100%;
     border-radius: 20px;
     border: 1px rgb(122, 201, 67) solid;
     margin-top: 100px;
@@ -76,8 +76,61 @@ a {
 }
 /* 목록 style */
 *{margin: 0; padding:0;}
-
+#container{
+    
+}
+/* sungsu style */
 .sungsu {
     float:left;
     position:relative;
 }
+
+#sungsu {
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+#back_s {
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+
+/* hongdae style */
+.hongdae {
+    float:center;
+    position:relative;
+}
+
+#hongdae {
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+#back_d {
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+/* hyehwa style */
+.hyehwa {
+    float:right;
+    position:relative;
+}
+
+#hyehwa {
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+#back_h {
+    position:absolute;
+    top:0;
+    left:0;
+}
+
