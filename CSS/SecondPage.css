@@ -65,7 +65,7 @@ a {
 }
 #main{
     width: 85%;
-    height: 100%;
+    height: 90%;
     border-radius: 20px;
     border: 1px #ab5e068b solid;
     margin-top: 30px;
@@ -77,27 +77,27 @@ a {
 
 /* picture size edit */
 img{
-    width:230px;
-    height:230px;
+    width:200px;
+    height:200px;
 }
 
 #frame {
-    width:300px;
-    height:300px;
+    width:250px;
+    height: 250px;
 }
 
 #png{
-    width:210px;
-    height:210px
+    width:180px;
+    height:180px
 }
 
 /* 목록 style */
 *{margin: 0; padding:0;}
 #container{
     width: 100%;
-    margin-top:30px;
-    margin-left:50px;
-    margin-bottom: 70px;
+    margin-top:40px;
+    margin-left:100px;
+    margin-bottom: 30px;
 }
 /* sungsu style */
 .sungsu {
@@ -107,8 +107,8 @@ img{
 
 #sungsu {
     position:absolute;
-    top:50px;
-    left:35px;
+    top:35px;
+    left:25px;
 }
 
 #back_s {
@@ -126,14 +126,14 @@ img{
 
 #hongdae {
     position:absolute;
-    top:55px;
-    left:475px;
+    top:38px;
+    left:440px;
 }
 
 #back_d {
     position:absolute;
     top:0;
-    left:450px;
+    left:430px;
 }
 
 /* hyehwa style */
@@ -144,20 +144,20 @@ img{
 
 #hyehwa {
     position:absolute;
-    top:75px;
-    left:940px;
+    top:60px;
+    left:885px;
 }
 
 #back_h {
     position:absolute;
     top:0;
-    left:892px;
+    left:850px;
 }
 
 #container1{
     width: 100%;
     margin-top:30px;
-    margin-left:50px;
+    margin-left:100px;
     margin-bottom: 70px;
 }
 /* bukchon style */
@@ -168,8 +168,8 @@ img{
 
 #bukchon {
     position:absolute;
-    top:290px;
-    left:35px;
+    top:280px;
+    left:25px;
 }
 
 #back_b {
@@ -187,14 +187,14 @@ img{
 
 #gangnam {
     position:absolute;
-    top:290px;
-    left:490px;
+    top:280px;
+    left:460px;
 }
 
 #back_g {
     position:absolute;
     top:250px;
-    left:450px;
+    left:430px;
 }
 
 /* recommend style */
@@ -205,13 +205,13 @@ img{
 
 #recommend {
     position:absolute;
-    top:290px;
-    left:932px;
+    top:275px;
+    left:875px;
 }
 
 #back_r {
     position:absolute;
     top:250px;
-    left:892px;
+    left:850px;
 }
 
