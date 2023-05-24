@@ -4,7 +4,7 @@ arr1[1]="<a href='https://cgg.cha.go.kr/agapp/main/index.do?siteCd=CGG'><img src
 arr1[2]="<a href='https://www.chf.or.kr/cont/view/fest/month/menu/210?thisPage=1&idx=109015&searchCategory1=600&searchCategory2=&searchField=all&searchDate=202304&weekSel=&searchText='><img src='../IMG/List_Thumbnail/Bukchon_thumbnail/Bukchon_chang.jpeg' border='0'  width=60%><br>창덕궁 달빛기행</a>"
 
 let arr2 = new Array(); //전시
-arr2[0]="<a href='https://groundseesaw.co.kr/product/%eb%82%98%ed%83%88%eb%a6%ac-%ec%b9%b4%eb%a5%b4%ed%91%b8%ec%85%b4%ec%bd%94-%ec%82%ac%ec%a7%84%ec%a0%84/'><img src='../IMG/List_Thumbnail/Sungsu_thumbnail/Sungsu_natali.png' border='0' width=60%><br>나탈리 카르푸셴코 사진전, 전시/a>";
+arr2[0]="<a href='https://groundseesaw.co.kr/product/%eb%82%98%ed%83%88%eb%a6%ac-%ec%b9%b4%eb%a5%b4%ed%91%b8%ec%85%b4%ec%bd%94-%ec%82%ac%ec%a7%84%ec%a0%84/'><img src='../IMG/List_Thumbnail/Sungsu_thumbnail/Sungsu_natali.png' border='0' width=60%><br>나탈리 카르푸셴코 사진전, 전시</a>";
 arr2[1]="<a href='https://www.sangsangmadang.com/display/detail/2356'><img src='../IMG/List_Thumbnail/Hongdae_thumbnail/Hongdae_earth.jpeg' border='0' width=60%><br>지구에 커튼을 쳐 줄게, 전시</a>";
 arr2[2]="<a href='https://tickets.interpark.com/goods/23004816?app_tapbar_state=hide&'><img src='../IMG/List_Thumbnail/Hongdae_thumbnail/Hongdae_museum.jpeg' border='0' width=60%><br>왓츠 유어 컬러, 전시</a>";
 arr2[3]="<a href='https://www.galleryafternoon.com/'><img src='../IMG/List_Thumbnail/Bukchon_thumbnail/Bukchon_afternoon.png' border='0' width=60%><br>갤러리 애프터눈</a>";
@@ -62,11 +62,7 @@ arr9[4]="<a href='https://doasis.kr/16/?&bmode=view&idx=341149&t=board'><img src
 arr9[5]="<a href='https://naver.me/xEqtxCp8'><img src=''../IMG/List_Thumbnail/Bukchon_thumbnail/Bukchon_store.jpeg' border='0' width=60%><br>탬버린즈 플래그쉽스토어</a>";
 
 let style = new Array(); //선택한 스타일
-
-function transDiv(){
-    document.getElementById('q3').style.display="none";
-    document.getElementById('result').style.display="inline-block";
-}
+let checks = Array.from(document.querySelectorAll('.check'));
 
 document.getElementById('submit').onclick = function() {
     if (document.getElementById('arr1').checked) {
@@ -96,12 +92,19 @@ document.getElementById('submit').onclick = function() {
     if (document.getElementById('arr9').checked) {
         style.push.apply(style,arr1);
     }
-
-    transDiv();
-
+    //체크한거 있을 시 결과 띄우기
+    for(let i=0; i<checks.length; i++){
+        if(checks[i].checked==true){
+            return transDiv();
+        }
+    }
+    alert("원하시는 활동을 선택해주세요!");
+    return false; //checkboc 미선택시 다시
 }
-
-
+function transDiv(){
+    document.getElementById('q3').style.display="none";
+    document.getElementById('result').style.display="inline-block";
+}
 
 function recommend(){
     let rand = Math.floor(Math.random()*(style.length))
