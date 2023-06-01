@@ -33,9 +33,14 @@ body{
     background-color: 	#FFEB5A;
 }
 
-#logo,#list,#team {
+#logo,#list,#team,#currentPage {
     display:inline-block;
     position: relative;
+}
+
+#currentPage {
+    margin-left: 500px;
+    font-size:x-large;
 }
 
 #logo {
