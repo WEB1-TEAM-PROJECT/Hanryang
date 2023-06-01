@@ -26,7 +26,7 @@ body{
     background-color: #f20823ce;
 }
 
-#logo,#list,#team {
+#logo,#list,#team, #currentPage {
     display:inline-block;
     position: relative;
 }
@@ -36,6 +36,11 @@ body{
     padding:5px;
     font-size:x-large;
     font-weight: bold;
+}
+
+#currentPage {
+    margin-left: 500px;
+    font-size:x-large;
 }
 
 #list,#team {
