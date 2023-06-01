@@ -13,8 +13,8 @@
 body{
     background: linear-gradient(
     to bottom,
-    #ffd800 0%,
-    #ffd800 20%,
+    #ffe375 0%,
+    #ffe375 20%,
     #fff 20%,
     #fff 100%
   );
@@ -42,7 +42,7 @@ body{
 /*네비게이션*/
 .nav{
     height:45px;
-    background-color: 	#ffd800;
+    background-color: 	#ffe375;
 }
 
 #logo,#list,#team,#currentPage {
@@ -170,7 +170,7 @@ html, body{
 }
 
 .place_name {
-    color: #ffd800;
+    color: #ffe375;
     padding: 10px;
     padding-top:20px;
     font-size: 34px;
@@ -203,8 +203,8 @@ html, body{
     padding:25px;
     padding-right: 130px;
     padding-bottom: 80px;
-    border-right: 3px solid #ffd800;
-    border-bottom: 3px solid #ffd800;
+    border-right: 3px solid #ffe375;
+    border-bottom: 3px solid #ffe375;
 }
 
 #secondWrapper{
@@ -212,17 +212,17 @@ html, body{
     padding: 25px;
     padding-left:120px;
     padding-right:120px;
-    border-left: 3px solid #ffd800;
-    border-right: 3px solid #ffd800;
-    border-bottom: 3px solid #ffd800;
+    border-left: 3px solid #ffe375;
+    border-right: 3px solid #ffe375;
+    border-bottom: 3px solid #ffe375;
 }
 
 #thirdWrapper{
     padding:25px;
     padding-left: 130px;
     padding-bottom: 80px;
-    border-left: 3px solid #ffd800;
-    border-bottom: 3px solid #ffd800;
+    border-left: 3px solid #ffe375;
+    border-bottom: 3px solid #ffe375;
     
 }
 
@@ -233,9 +233,9 @@ html, body{
     padding-right: 130px;
     padding-top: 80px;
     padding-bottom: 80px;
-    border-top: 3px solid #ffd800;
-    border-right: 3px solid #ffd800;
-    border-bottom: 3px solid #ffd800;
+    border-top: 3px solid #ffe375;
+    border-right: 3px solid #ffe375;
+    border-bottom: 3px solid #ffe375;
     
 }
 
@@ -244,7 +244,7 @@ html, body{
     padding: 80px;
     padding-left:120px;
     padding-right:120px;
-    border: 3px solid #ffd800;
+    border: 3px solid #ffe375;
     
 }
 
@@ -253,9 +253,9 @@ html, body{
     padding-top: 80px;
     padding-bottom: 80px;
     padding-left: 130px;
-    border-top: 3px solid #ffd800;
-    border-left: 3px solid #ffd800;
-    border-bottom: 3px solid #ffd800;
+    border-top: 3px solid #ffe375;
+    border-left: 3px solid #ffe375;
+    border-bottom: 3px solid #ffe375;
     
 }
 
@@ -265,8 +265,8 @@ html, body{
     padding:25px;
     padding-right: 130px;
     padding-top: 80px;
-    border-top: 3px solid #ffd800;
-    border-right: 3px solid #ffd800;
+    border-top: 3px solid #ffe375;
+    border-right: 3px solid #ffe375;
     
 }
 
@@ -275,9 +275,9 @@ html, body{
     padding: 80px;
     padding-left:120px;
     padding-right:120px;
-    border-left: 3px solid #ffd800;
-    border-top: 3px solid #ffd800;
-    border-right: 3px solid #ffd800;
+    border-left: 3px solid #ffe375;
+    border-top: 3px solid #ffe375;
+    border-right: 3px solid #ffe375;
 
 }
 
@@ -285,7 +285,7 @@ html, body{
     padding:25px;
     padding-left: 130px;
     padding-top: 80px;
-    border-left: 3px solid #ffd800;
-    border-top: 3px solid #ffd800;
+    border-left: 3px solid #ffe375;
+    border-top: 3px solid #ffe375;
     
 }
