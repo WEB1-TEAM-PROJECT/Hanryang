@@ -13,8 +13,8 @@
 body{
     background: linear-gradient(
     to bottom,
-    #dfd880 0%,
-    #dfd880 20%,
+    #ffd800 0%,
+    #ffd800 20%,
     #fff 20%,
     #fff 100%
   );
@@ -42,7 +42,7 @@ body{
 /*네비게이션*/
 .nav{
     height:45px;
-    background-color: 	#dfd880;
+    background-color: 	#ffd800;
 }
 
 #logo,#list,#team,#currentPage {
@@ -90,7 +90,7 @@ body{
 #map{
     position: absolute;
     border: solid 20px;
-    border-color: #F7F7AD;
+    border-color: #ffec9d;
     margin-top: 30px;
     margin-left:40px;
     left: 47%;
@@ -170,7 +170,7 @@ html, body{
 }
 
 .place_name {
-    color: #d7d17b;
+    color: #ffd800;
     padding: 10px;
     padding-top:20px;
     font-size: 34px;
@@ -203,8 +203,8 @@ html, body{
     padding:25px;
     padding-right: 130px;
     padding-bottom: 80px;
-    border-right: 3px solid #dfd880;
-    border-bottom: 3px solid #dfd880;
+    border-right: 3px solid #ffd800;
+    border-bottom: 3px solid #ffd800;
 }
 
 #secondWrapper{
@@ -212,17 +212,17 @@ html, body{
     padding: 25px;
     padding-left:120px;
     padding-right:120px;
-    border-left: 3px solid #dfd880;
-    border-right: 3px solid #dfd880;
-    border-bottom: 3px solid #dfd880;
+    border-left: 3px solid #ffd800;
+    border-right: 3px solid #ffd800;
+    border-bottom: 3px solid #ffd800;
 }
 
 #thirdWrapper{
     padding:25px;
     padding-left: 130px;
     padding-bottom: 80px;
-    border-left: 3px solid #dfd880;
-    border-bottom: 3px solid #dfd880;
+    border-left: 3px solid #ffd800;
+    border-bottom: 3px solid #ffd800;
     
 }
 
@@ -233,9 +233,9 @@ html, body{
     padding-right: 130px;
     padding-top: 80px;
     padding-bottom: 80px;
-    border-top: 3px solid #dfd880;
-    border-right: 3px solid #dfd880;
-    border-bottom: 3px solid #dfd880;
+    border-top: 3px solid #ffd800;
+    border-right: 3px solid #ffd800;
+    border-bottom: 3px solid #ffd800;
     
 }
 
@@ -244,7 +244,7 @@ html, body{
     padding: 80px;
     padding-left:120px;
     padding-right:120px;
-    border: 3px solid #dfd880;
+    border: 3px solid #ffd800;
     
 }
 
@@ -253,9 +253,9 @@ html, body{
     padding-top: 80px;
     padding-bottom: 80px;
     padding-left: 130px;
-    border-top: 3px solid #dfd880;
-    border-left: 3px solid #dfd880;
-    border-bottom: 3px solid #dfd880;
+    border-top: 3px solid #ffd800;
+    border-left: 3px solid #ffd800;
+    border-bottom: 3px solid #ffd800;
     
 }
 
@@ -265,8 +265,8 @@ html, body{
     padding:25px;
     padding-right: 130px;
     padding-top: 80px;
-    border-top: 3px solid #dfd880;
-    border-right: 3px solid #dfd880;
+    border-top: 3px solid #ffd800;
+    border-right: 3px solid #ffd800;
     
 }
 
@@ -275,9 +275,9 @@ html, body{
     padding: 80px;
     padding-left:120px;
     padding-right:120px;
-    border-left: 3px solid #dfd880;
-    border-top: 3px solid #dfd880;
-    border-right: 3px solid #dfd880;
+    border-left: 3px solid #ffd800;
+    border-top: 3px solid #ffd800;
+    border-right: 3px solid #ffd800;
 
 }
 
@@ -285,7 +285,7 @@ html, body{
     padding:25px;
     padding-left: 130px;
     padding-top: 80px;
-    border-left: 3px solid #dfd880;
-    border-top: 3px solid #dfd880;
+    border-left: 3px solid #ffd800;
+    border-top: 3px solid #ffd800;
     
 }
