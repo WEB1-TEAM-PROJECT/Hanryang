@@ -23,7 +23,7 @@ body{
 /*네비게이션*/
 .nav{
     height:45px;
-    background-color: #FF92B1;
+    background-color: #FFC0CB;
 }
 
 #logo,#list,#team {
@@ -65,8 +65,9 @@ body{
 /*지도*/
 #map{
     position: absolute;
-    border: solid 30px;
+    border: solid 20px;
     border-color: #FFA6CF;
+    margin-top: 30px;
     margin-left:40px;
     left: 47%;
     height: 300px;

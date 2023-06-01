@@ -14,7 +14,7 @@ body{
     background: linear-gradient(
     to bottom,
     #f20823ce 0%,
-    #f208249c 20%,
+    #f20823ce 20%,
     #fff 20%,
     #fff 100%
   );
@@ -23,7 +23,7 @@ body{
 /*네비게이션*/
 .nav{
     height:45px;
-    background-color: #FF0000;
+    background-color: #f20823ce;
 }
 
 #logo,#list,#team {
@@ -66,8 +66,9 @@ body{
 /*지도*/
 #map{
     position: absolute;
-    border: solid 30px;
-    border-color: #F54358;
+    border: solid 20px;
+    border-color: #fd7282;
+    margin-top: 30px;
     margin-left:40px;
     left: 47%;
     height: 300px;
