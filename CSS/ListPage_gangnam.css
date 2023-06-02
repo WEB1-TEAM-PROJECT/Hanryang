@@ -19,25 +19,6 @@ body{
     #fff 100%
   );
 }
-/*홈페이지
-
-.to_home{
-    width: 400px;
-    height: 70px;
-    background-color: #dfd880;
-    border: none;
-    font-family:'Courier New', Courier, monospace;
-    font-weight: bold;
-}
-.to_home a{
-    color: #fff;
-    font-size: 50px;
-    text-decoration: none;
-}
-
-.to_home a:hover{
-    text-decoration: underline;
-}*/
 
 /*네비게이션*/
 .nav{
