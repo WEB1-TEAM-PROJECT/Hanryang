@@ -43,7 +43,7 @@ body{
 #currentPage {
     margin-left: 500px;
     font-size:x-large;
-    color: #fff;
+    color: black;
 }
 
 #list,#team {
@@ -60,7 +60,7 @@ body{
     display: block; 
     content: ''; 
     width: 100%; 
-    border-bottom: 3px solid #fff; 
+    border-bottom: 3px solid black; 
     height: 1px; transform: translateY(-15px); 
     opacity: 0; 
     transition: all 0.5s;
@@ -102,7 +102,7 @@ img.marker {
 }
 a {
     text-decoration: none;
-    color: #fff;
+    color: black;
 }
 /* 확대/축소 등 구글 지도의 기본 UI 감추기 */
 .gmnoprint, .gm-control-active.gm-fullscreen-control {
