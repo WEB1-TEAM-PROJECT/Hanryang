@@ -41,6 +41,7 @@ body{
 #currentPage {
     margin-left: 500px;
     font-size:x-large;
+    color: black;
 }
 
 #list,#team {
@@ -57,7 +58,7 @@ body{
     display: block; 
     content: ''; 
     width: 100%; 
-    border-bottom: 3px solid black; 
+    border-bottom: 3px solid black;; 
     height: 1px; transform: translateY(-15px); 
     opacity: 0; 
     transition: all 0.5s;
@@ -71,7 +72,7 @@ body{
 #map{
     position: absolute;
     border: solid 20px;
-    border-color: #5A78AF;
+    border-color: #4678b9;
     margin-top: 30px;
     margin-left:40px;
     left: 47%;
@@ -98,7 +99,7 @@ img.marker {
 }
 a {
     text-decoration: none;
-    color: #000;
+    color: black;
 }
 /* 확대/축소 등 구글 지도의 기본 UI 감추기 */
 .gmnoprint, .gm-control-active.gm-fullscreen-control {

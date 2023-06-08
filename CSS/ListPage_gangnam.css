@@ -13,36 +13,17 @@
 body{
     background: linear-gradient(
     to bottom,
-    #dfd880 0%,
-    #dfd880 20%,
+    #ffe375 0%,
+    #ffe375 20%,
     #fff 20%,
     #fff 100%
   );
 }
-/*홈페이지
-
-.to_home{
-    width: 400px;
-    height: 70px;
-    background-color: #dfd880;
-    border: none;
-    font-family:'Courier New', Courier, monospace;
-    font-weight: bold;
-}
-.to_home a{
-    color: #fff;
-    font-size: 50px;
-    text-decoration: none;
-}
-
-.to_home a:hover{
-    text-decoration: underline;
-}*/
 
 /*네비게이션*/
 .nav{
     height:45px;
-    background-color: 	#dfd880;
+    background-color: 	#ffe375;
 }
 
 #logo,#list,#team,#currentPage {
@@ -90,7 +71,7 @@ body{
 #map{
     position: absolute;
     border: solid 20px;
-    border-color: #F7F7AD;
+    border-color: #ffec9d;
     margin-top: 30px;
     margin-left:40px;
     left: 47%;
@@ -170,7 +151,7 @@ html, body{
 }
 
 .place_name {
-    color: #d7d17b;
+    color: #ffe375;
     padding: 10px;
     padding-top:20px;
     font-size: 34px;
@@ -203,8 +184,8 @@ html, body{
     padding:25px;
     padding-right: 130px;
     padding-bottom: 80px;
-    border-right: 3px solid #dfd880;
-    border-bottom: 3px solid #dfd880;
+    border-right: 3px solid #ffe375;
+    border-bottom: 3px solid #ffe375;
 }
 
 #secondWrapper{
@@ -212,17 +193,17 @@ html, body{
     padding: 25px;
     padding-left:120px;
     padding-right:120px;
-    border-left: 3px solid #dfd880;
-    border-right: 3px solid #dfd880;
-    border-bottom: 3px solid #dfd880;
+    border-left: 3px solid #ffe375;
+    border-right: 3px solid #ffe375;
+    border-bottom: 3px solid #ffe375;
 }
 
 #thirdWrapper{
     padding:25px;
     padding-left: 130px;
     padding-bottom: 80px;
-    border-left: 3px solid #dfd880;
-    border-bottom: 3px solid #dfd880;
+    border-left: 3px solid #ffe375;
+    border-bottom: 3px solid #ffe375;
     
 }
 
@@ -233,9 +214,9 @@ html, body{
     padding-right: 130px;
     padding-top: 80px;
     padding-bottom: 80px;
-    border-top: 3px solid #dfd880;
-    border-right: 3px solid #dfd880;
-    border-bottom: 3px solid #dfd880;
+    border-top: 3px solid #ffe375;
+    border-right: 3px solid #ffe375;
+    border-bottom: 3px solid #ffe375;
     
 }
 
@@ -244,7 +225,7 @@ html, body{
     padding: 80px;
     padding-left:120px;
     padding-right:120px;
-    border: 3px solid #dfd880;
+    border: 3px solid #ffe375;
     
 }
 
@@ -253,9 +234,9 @@ html, body{
     padding-top: 80px;
     padding-bottom: 80px;
     padding-left: 130px;
-    border-top: 3px solid #dfd880;
-    border-left: 3px solid #dfd880;
-    border-bottom: 3px solid #dfd880;
+    border-top: 3px solid #ffe375;
+    border-left: 3px solid #ffe375;
+    border-bottom: 3px solid #ffe375;
     
 }
 
@@ -265,8 +246,8 @@ html, body{
     padding:25px;
     padding-right: 130px;
     padding-top: 80px;
-    border-top: 3px solid #dfd880;
-    border-right: 3px solid #dfd880;
+    border-top: 3px solid #ffe375;
+    border-right: 3px solid #ffe375;
     
 }
 
@@ -275,9 +256,9 @@ html, body{
     padding: 80px;
     padding-left:120px;
     padding-right:120px;
-    border-left: 3px solid #dfd880;
-    border-top: 3px solid #dfd880;
-    border-right: 3px solid #dfd880;
+    border-left: 3px solid #ffe375;
+    border-top: 3px solid #ffe375;
+    border-right: 3px solid #ffe375;
 
 }
 
@@ -285,7 +266,7 @@ html, body{
     padding:25px;
     padding-left: 130px;
     padding-top: 80px;
-    border-left: 3px solid #dfd880;
-    border-top: 3px solid #dfd880;
+    border-left: 3px solid #ffe375;
+    border-top: 3px solid #ffe375;
     
 }
